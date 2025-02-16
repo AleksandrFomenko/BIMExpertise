@@ -1,0 +1,11 @@
+﻿<RevitAddIns>
+    <AddIn Type="Application">
+        <Name>BIMExpertise</Name>
+        <Assembly>BIMExpertise/BIMExpertise.dll</Assembly>
+        <AddInId>EEE84019-3E31-4842-913D-09C77B7BFC5E</AddInId>
+        <FullClassName>BIMExpertise.Application</FullClassName>
+        <VendorId>Development</VendorId>
+        <VendorDescription></VendorDescription>
+        <VendorEmail></VendorEmail>
+    </AddIn>
+</RevitAddIns>
