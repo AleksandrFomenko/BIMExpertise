@@ -1,17 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "6XKWrlkYUKU=",
+  "dgSpecHash": "IWH5kcXjMVQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj",
+  "projectFilePath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\umr22\\.nuget\\packages\\jetbrains.annotations\\2024.3.0\\jetbrains.annotations.2024.3.0.nupkg.sha512",
-    "C:\\Users\\umr22\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-    "C:\\Users\\umr22\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.3\\microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
-    "C:\\Users\\umr22\\.nuget\\packages\\nice3point.revit.api.revitapi\\2020.2.60\\nice3point.revit.api.revitapi.2020.2.60.nupkg.sha512",
-    "C:\\Users\\umr22\\.nuget\\packages\\nice3point.revit.api.revitapiui\\2020.2.60\\nice3point.revit.api.revitapiui.2020.2.60.nupkg.sha512",
-    "C:\\Users\\umr22\\.nuget\\packages\\nice3point.revit.build.tasks\\2.0.2\\nice3point.revit.build.tasks.2.0.2.nupkg.sha512",
-    "C:\\Users\\umr22\\.nuget\\packages\\nice3point.revit.extensions\\2020.4.0-preview.1.250122\\nice3point.revit.extensions.2020.4.0-preview.1.250122.nupkg.sha512",
-    "C:\\Users\\umr22\\.nuget\\packages\\nice3point.revit.toolkit\\2020.3.0-preview.3.250129\\nice3point.revit.toolkit.2020.3.0-preview.3.250129.nupkg.sha512"
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\jetbrains.annotations\\2024.3.0\\jetbrains.annotations.2024.3.0.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\nice3point.revit.api.revitapi\\2020.2.60\\nice3point.revit.api.revitapi.2020.2.60.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\nice3point.revit.api.revitapiui\\2020.2.60\\nice3point.revit.api.revitapiui.2020.2.60.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\nice3point.revit.build.tasks\\2.0.2\\nice3point.revit.build.tasks.2.0.2.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\nice3point.revit.extensions\\2020.4.0-preview.1.250122\\nice3point.revit.extensions.2020.4.0-preview.1.250122.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\nice3point.revit.toolkit\\2020.3.0-preview.3.250129\\nice3point.revit.toolkit.2020.3.0-preview.3.250129.nupkg.sha512"
   ],
   "logs": []
 }

@@ -29,7 +29,7 @@ public class Application : ExternalApplication
         var panelBackgroundBrushTurquoise = new SolidColorBrush(System.Windows.Media.Color.FromRgb(100, 149, 237));
         panelMep.SetTitleBarBackground(panelBackgroundBrushTurquoise);
         
-        var panelAr = Application.CreatePanel("Architecture", "BIMExpertise");
+        var panelAr = Application.CreatePanel("Architecture/construction", "BIMExpertise");
         var panelBackgroundBrushPurple =
             new SolidColorBrush(System.Windows.Media.Color.FromRgb(204, 204, 255));
         panelAr.SetTitleBarBackground(panelBackgroundBrushPurple);

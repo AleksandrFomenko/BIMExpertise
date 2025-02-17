@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj": {}
+    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj": {}
   },
   "projects": {
-    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj": {
+    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj",
+        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj",
         "projectName": "BIMExpertise",
-        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj",
-        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BIMExpertise\\obj\\",
+        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj",
+        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BIMExpertise\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -43,12 +43,6 @@
         "net48": {
           "targetAlias": "net48",
           "dependencies": {
-            "Microsoft.NETFramework.ReferenceAssemblies": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.0.3, )",
-              "autoReferenced": true
-            },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
               "version": "[2020.*-*, )"
@@ -70,7 +64,7 @@
               "version": "[2020.*-*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
