@@ -42,16 +42,34 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Nice3point.Revit.Build.Tasks" Version="2.*"/>
-        <PackageReference Include="Nice3point.Revit.Toolkit" Version="$(RevitVersion).*-*"/>
-        <PackageReference Include="Nice3point.Revit.Extensions" Version="$(RevitVersion).*-*"/>
-        <PackageReference Include="Nice3point.Revit.Api.RevitAPI" Version="$(RevitVersion).*-*"/>
-        <PackageReference Include="Nice3point.Revit.Api.RevitAPIUI" Version="$(RevitVersion).*-*"/>
+        <PackageReference Include="MaterialDesignColors" Version="5.2.2-ci907" />
+        <PackageReference Include="MaterialDesignThemes" Version="5.2.2-ci907" />
+        <PackageReference Include="Nice3point.Revit.Build.Tasks" Version="2.*" />
+        <PackageReference Include="Nice3point.Revit.Toolkit" Version="$(RevitVersion).*-*" />
+        <PackageReference Include="Nice3point.Revit.Extensions" Version="$(RevitVersion).*-*" />
+        <PackageReference Include="Nice3point.Revit.Api.RevitAPI" Version="$(RevitVersion).*-*" />
+        <PackageReference Include="Nice3point.Revit.Api.RevitAPIUI" Version="$(RevitVersion).*-*" />
     </ItemGroup>
 
     <ItemGroup>
-        <Resource Include="Resources\Icons\RibbonIcon16.png"/>
-        <Resource Include="Resources\Icons\RibbonIcon32.png"/>
+        <Resource Include="Resources\Icons\RibbonIcon16.png" />
+        <Resource Include="Resources\Icons\RibbonIcon32.png" />
+        <Resource Include="Resources\Icons\Wall32.png" />
+        <Resource Include="Resources\Icons\Valve32.png" />
+        <Resource Include="Resources\Icons\SpaceHeater32.png" />
+        <Resource Include="Resources\Icons\PipesFittings32.png" />
+        <None Remove="Resources\Icons\PipesIcon32.png" />
+        <Resource Include="Resources\Icons\PipesIcon32.png" />
+        <None Remove="Resources\Icons\SystemName.png" />
+        <Resource Include="Resources\Icons\SystemName.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\PipesFittings\PipesFittings.csproj" />
+        <ProjectReference Include="..\Pipes\Pipes.csproj" />
+        <ProjectReference Include="..\SpaceHeater\SpaceHeater.csproj" />
+        <ProjectReference Include="..\Valve\Valve.csproj" />
+        <ProjectReference Include="..\Walls\Walls.csproj" />
     </ItemGroup>
 
 </Project>

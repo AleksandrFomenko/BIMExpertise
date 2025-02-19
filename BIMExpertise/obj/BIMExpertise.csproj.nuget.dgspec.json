@@ -25,6 +25,94 @@
         "frameworks": {
           "net48": {
             "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\PipesFittings.csproj": {
+                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\PipesFittings.csproj"
+              },
+              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\Pipes.csproj": {
+                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\Pipes.csproj"
+              },
+              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj": {
+                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj"
+              },
+              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Valve\\Valve.csproj": {
+                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Valve\\Valve.csproj"
+              },
+              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Walls\\Walls.csproj": {
+                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Walls\\Walls.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[5.2.2-ci907, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.2.2-ci907, )"
+            },
+            "Nice3point.Revit.Api.RevitAPI": {
+              "target": "Package",
+              "version": "[2022.*-*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPIUI": {
+              "target": "Package",
+              "version": "[2022.*-*, )"
+            },
+            "Nice3point.Revit.Build.Tasks": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Nice3point.Revit.Extensions": {
+              "target": "Package",
+              "version": "[2022.*-*, )"
+            },
+            "Nice3point.Revit.Toolkit": {
+              "target": "Package",
+              "version": "[2022.*-*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj",
+        "projectName": "KapibaraCore",
+        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj",
+        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
             "projectReferences": {}
           }
         },
@@ -43,13 +131,27 @@
         "net48": {
           "targetAlias": "net48",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies.net48": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
-              "version": "[2020.*-*, )"
+              "version": "[2022.*, )"
             },
             "Nice3point.Revit.Api.RevitAPIUI": {
               "target": "Package",
-              "version": "[2020.*-*, )"
+              "version": "[2022.*, )"
             },
             "Nice3point.Revit.Build.Tasks": {
               "target": "Package",
@@ -57,11 +159,454 @@
             },
             "Nice3point.Revit.Extensions": {
               "target": "Package",
-              "version": "[2020.*-*, )"
+              "version": "[2022.*, )"
             },
             "Nice3point.Revit.Toolkit": {
               "target": "Package",
-              "version": "[2020.*-*, )"
+              "version": "[2022.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\PipesFittings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\PipesFittings.csproj",
+        "projectName": "PipesFittings",
+        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\PipesFittings.csproj",
+        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPIUI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Build.Tasks": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Nice3point.Revit.Extensions": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Toolkit": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\Pipes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\Pipes.csproj",
+        "projectName": "Pipes",
+        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\Pipes.csproj",
+        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
+                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
+              },
+              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResources\\WpfResources.csproj": {
+                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResources\\WpfResources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPIUI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Build.Tasks": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Nice3point.Revit.Extensions": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Toolkit": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj",
+        "projectName": "SpaceHeater",
+        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj",
+        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\SpaceHeater\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPIUI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Build.Tasks": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Nice3point.Revit.Extensions": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Toolkit": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Valve\\Valve.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Valve\\Valve.csproj",
+        "projectName": "Valve",
+        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Valve\\Valve.csproj",
+        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Valve\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPIUI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Build.Tasks": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Nice3point.Revit.Extensions": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Toolkit": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Walls\\Walls.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Walls\\Walls.csproj",
+        "projectName": "Walls",
+        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Walls\\Walls.csproj",
+        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Walls\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[5.2.2-ci907, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.2.2-ci907, )"
+            },
+            "Nice3point.Revit.Api.RevitAPI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPIUI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Build.Tasks": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Nice3point.Revit.Extensions": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Toolkit": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResources\\WpfResources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResources\\WpfResources.csproj",
+        "projectName": "WpfResources",
+        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResources\\WpfResources.csproj",
+        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResources\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "SharpVectors.Wpf": {
+              "target": "Package",
+              "version": "[1.*, )"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
