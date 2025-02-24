@@ -37,7 +37,7 @@
           }
         }
       },
-      "MaterialDesignColors/5.2.2-ci907": {
+      "MaterialDesignColors/5.2.1": {
         "type": "package",
         "compile": {
           "lib/net462/MaterialDesignColors.dll": {
@@ -50,10 +50,10 @@
           }
         }
       },
-      "MaterialDesignThemes/5.2.2-ci907": {
+      "MaterialDesignThemes/5.2.1": {
         "type": "package",
         "dependencies": {
-          "MaterialDesignColors": "5.2.2-ci907",
+          "MaterialDesignColors": "5.2.1",
           "Microsoft.Xaml.Behaviors.Wpf": "1.1.39"
         },
         "compile": {
@@ -147,7 +147,7 @@
           "build/Nice3point.Revit.Build.Tasks.targets": {}
         }
       },
-      "Nice3point.Revit.Extensions/2022.4.0-preview.1.250122": {
+      "Nice3point.Revit.Extensions/2022.4.0-preview.2.250219": {
         "type": "package",
         "dependencies": {
           "JetBrains.Annotations": "2024.3.0"
@@ -440,13 +440,15 @@
         "framework": ".NETFramework,Version=v4.8",
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.0.0",
-          "MaterialDesignColors": "5.2.2-ci907",
-          "MaterialDesignThemes": "5.2.2-ci907",
+          "KapibaraCore": "1.0.0",
+          "MaterialDesignColors": "5.0.0",
+          "MaterialDesignThemes": "5.0.0",
           "Nice3point.Revit.Api.RevitAPI": "2022.0.0",
           "Nice3point.Revit.Api.RevitAPIUI": "2022.0.0",
           "Nice3point.Revit.Build.Tasks": "2.0.0",
           "Nice3point.Revit.Extensions": "2022.0.0",
-          "Nice3point.Revit.Toolkit": "2022.0.0"
+          "Nice3point.Revit.Toolkit": "2022.0.0",
+          "WpfResources": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Walls.dll": {}
@@ -538,10 +540,10 @@
         "readme.md"
       ]
     },
-    "MaterialDesignColors/5.2.2-ci907": {
-      "sha512": "bo0efB/KZ1SLR1D1QVyF+9uP2GHcZNUjf6WLYQpbHwW8EcwI7dPeM4uWc7tdRW1NIkP1Fbgjmx28ghqOINkeCg==",
+    "MaterialDesignColors/5.2.1": {
+      "sha512": "D0HW6E2/kzsnEWCh1KDG/K09Fpkvs9mR3n91Y8YSOsEAoQmGZbVAj58ssyAxGTiIPj2zB4ZVnwxkizwO35/v8A==",
       "type": "package",
-      "path": "materialdesigncolors/5.2.2-ci907",
+      "path": "materialdesigncolors/5.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -553,14 +555,14 @@
         "lib/net6.0/MaterialDesignColors.pdb",
         "lib/net8.0/MaterialDesignColors.dll",
         "lib/net8.0/MaterialDesignColors.pdb",
-        "materialdesigncolors.5.2.2-ci907.nupkg.sha512",
+        "materialdesigncolors.5.2.1.nupkg.sha512",
         "materialdesigncolors.nuspec"
       ]
     },
-    "MaterialDesignThemes/5.2.2-ci907": {
-      "sha512": "4VV0/r5EkflySVqI/839OuxC0JKgVx9E9+AUNDIKI+g5M1E//NPOYm1bPiAyELnSKkCPUDS/cw4EHJU3wHawlA==",
+    "MaterialDesignThemes/5.2.1": {
+      "sha512": "x8JDqNHJcTLLxIoVts3w7AbSq5Zo0FXTw89XqPN7+n0EKqLXFwWsywiUn08HDyTGAmZVJqbQsWKxKWCI8qfWsQ==",
       "type": "package",
-      "path": "materialdesignthemes/5.2.2-ci907",
+      "path": "materialdesignthemes/5.2.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -595,7 +597,7 @@
         "lib/net8.0/MaterialDesignThemes.Wpf.dll",
         "lib/net8.0/MaterialDesignThemes.Wpf.pdb",
         "lib/net8.0/MaterialDesignThemes.Wpf.xml",
-        "materialdesignthemes.5.2.2-ci907.nupkg.sha512",
+        "materialdesignthemes.5.2.1.nupkg.sha512",
         "materialdesignthemes.nuspec",
         "tools/VisualStudioToolsManifest.xml"
       ]
@@ -731,10 +733,10 @@
         "tasks/net8.0/Nice3point.Revit.Build.Tasks.dll"
       ]
     },
-    "Nice3point.Revit.Extensions/2022.4.0-preview.1.250122": {
-      "sha512": "A0Abxw7HTKT91jEwCDQgNKb2246k/3S72/KmO+WBE+bz2pbYtqVBwFNwZPDF3YLCT1i8KhASh3KM+Tgz/HsgGQ==",
+    "Nice3point.Revit.Extensions/2022.4.0-preview.2.250219": {
+      "sha512": "eRgKYlF1UjPI0ZA0p5IiYy/3YwMjpDHsZZHea+V4S5zksqkkaZSenGe+1+WHLyTFkTx0E05iFj1m9LuTBgJLhg==",
       "type": "package",
-      "path": "nice3point.revit.extensions/2022.4.0-preview.1.250122",
+      "path": "nice3point.revit.extensions/2022.4.0-preview.2.250219",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -743,7 +745,7 @@
         "images/PackageIcon.png",
         "lib/net48/Nice3point.Revit.Extensions.dll",
         "lib/net48/Nice3point.Revit.Extensions.xml",
-        "nice3point.revit.extensions.2022.4.0-preview.1.250122.nupkg.sha512",
+        "nice3point.revit.extensions.2022.4.0-preview.2.250219.nupkg.sha512",
         "nice3point.revit.extensions.nuspec"
       ]
     },
@@ -1150,8 +1152,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "MaterialDesignColors >= 5.2.2-ci907",
-      "MaterialDesignThemes >= 5.2.2-ci907",
+      "MaterialDesignColors >= 5.*",
+      "MaterialDesignThemes >= 5.*",
       "Nice3point.Revit.Api.RevitAPI >= 2022.*-*",
       "Nice3point.Revit.Api.RevitAPIUI >= 2022.*-*",
       "Nice3point.Revit.Build.Tasks >= 2.*",
@@ -1224,11 +1226,11 @@
         "dependencies": {
           "MaterialDesignColors": {
             "target": "Package",
-            "version": "[5.2.2-ci907, )"
+            "version": "[5.*, )"
           },
           "MaterialDesignThemes": {
             "target": "Package",
-            "version": "[5.2.2-ci907, )"
+            "version": "[5.*, )"
           },
           "Nice3point.Revit.Api.RevitAPI": {
             "target": "Package",

@@ -35,11 +35,11 @@
     </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="110"/>
+            <RowDefinition Height="80"/>
             <RowDefinition />
             <RowDefinition />
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0">
             <Grid.ColumnDefinitions>
@@ -102,7 +102,8 @@
                 <ToggleButton Grid.Row="1" Grid.Column="0"
                               IsChecked="{Binding IsDiameter, Mode=TwoWay}" 
                               Style="{StaticResource MyToggleButton}" />
-                <TextBlock Grid.Row="1" Grid.Column="0" Style="{StaticResource MyTextBlock}" Text = "Диаметр"
+                <TextBlock Grid.Row="1" Grid.Column="0"
+                           Style="{StaticResource MyTextBlock}" Text = "Диаметр"
                            Margin="70, 0,0,0"/>
                 <ComboBox  Grid.Row="1" Grid.Column="0"
                            Style="{StaticResource MyComboBox}"
@@ -112,8 +113,10 @@
                 <ToggleButton Grid.Row="2" Grid.Column="0"
                               IsChecked="{Binding IsOuterDiameter, Mode=TwoWay}" 
                               Style="{StaticResource MyToggleButton}" />
-                <TextBlock Grid.Row="2" Grid.Column="0" Style="{StaticResource MyTextBlock}"
-                           Text = "Внешний диаметр" Margin="70, 0,0,0"/>
+                <TextBlock Grid.Row="2" Grid.Column="0"
+                           Style="{StaticResource MyTextBlock}"
+                           Text = "Внешний диаметр"
+                           Margin="70, 0,0,0"/>
                 <ComboBox  Grid.Row="2" Grid.Column="0"
                            Style="{StaticResource MyComboBox}"
                            ItemsSource="{Binding GeomParameters}"
@@ -122,8 +125,10 @@
                 <ToggleButton Grid.Row="3" Grid.Column="0"
                               IsChecked="{Binding IsPipeThickness, Mode=TwoWay}" 
                               Style="{StaticResource MyToggleButton}" />
-                <TextBlock Grid.Row="3" Grid.Column="0" Style="{StaticResource MyTextBlock}"
-                           Text = "Толщина стенки" Margin="70, 0,0,0"/>
+                <TextBlock Grid.Row="3" Grid.Column="0"
+                           Style="{StaticResource MyTextBlock}"
+                           Text = "Толщина стенки"
+                           Margin="70, 0,0,0"/>
                 <ComboBox  Grid.Row="3" Grid.Column="0"
                            Style="{StaticResource MyComboBox}"
                            ItemsSource="{Binding GeomParameters}"
@@ -132,8 +137,10 @@
                 <ToggleButton Grid.Row="1" Grid.Column="1"
                               IsChecked="{Binding IsLength, Mode=TwoWay}" 
                               Style="{StaticResource MyToggleButton}" />
-                <TextBlock Grid.Row="1" Grid.Column="1" Style="{StaticResource MyTextBlock}"
-                           Text = "Длина" Margin="70, 0,0,0"/>
+                <TextBlock Grid.Row="1" Grid.Column="1"
+                           Style="{StaticResource MyTextBlock}"
+                           Text = "Длина"
+                           Margin="70, 0,0,0"/>
                 <ComboBox  Grid.Row="1" Grid.Column="1"
                            Margin="125,0,20,0"
                            Style="{StaticResource MyComboBox}"
@@ -143,13 +150,16 @@
                 <ToggleButton Grid.Row="2" Grid.Column="1"
                               IsChecked="{Binding IsMass, Mode=TwoWay}" 
                               Style="{StaticResource MyToggleButton}" />
-                <TextBlock Grid.Row="2" Grid.Column="1" Style="{StaticResource MyTextBlock}"
-                           Text = "Масса" Margin="70, 0,0,0"/>
+                <TextBlock Grid.Row="2" Grid.Column="1"
+                           Style="{StaticResource MyTextBlock}"
+                           Text = "Масса"
+                           Margin="70, 0,0,0"/>
                 <ComboBox  Grid.Row="2" Grid.Column="1"
                            Margin="125,0,20,0"
                            Style="{StaticResource MyComboBox}"
                            ItemsSource="{Binding GeomParameters}"
                            SelectedItem="{Binding MassParameter, Mode=TwoWay}"/>
+                
             </Grid>
         </Border>
         
@@ -173,6 +183,7 @@
                 Style="{StaticResource MaterialDesignRaisedDarkButton}"
                 Background="{StaticResource LineBrush}"
                 VerticalAlignment="Center"
+                IsEnabled="{Binding ButtonEnable}"
                 HorizontalAlignment="Center"
                 Command="{Binding ExecuteCommand}">
             <TextBlock

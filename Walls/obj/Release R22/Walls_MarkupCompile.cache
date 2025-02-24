@@ -10,11 +10,11 @@ none
 false
 ;RELEASE;TRACE;RELEASE_R22;NETFRAMEWORK;NET48;
 
-1-1845280721
+3-2112680092
 
-8-70122126
-37-730591942
-Views\WallsView.xaml;
+14-1294469701
+47-118100242
+AdditionalParameters\view\AdditionalParametersView.xaml;MainParameters\view\MainParametersView.xaml;Views\WallsView.xaml;
 
 False
 

@@ -106,7 +106,7 @@ namespace Pipes.MainParameters.model
                         { 300, 54.897 }
                     }
                 },
-                { "полиропилен", new Dictionary<double, double>
+                { "полиэтилен", new Dictionary<double, double>
                     {
                         { 16, 0.09 },
                         { 20, 0.150 },

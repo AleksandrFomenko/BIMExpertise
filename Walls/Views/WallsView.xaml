@@ -5,18 +5,51 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:viewModel="clr-namespace:Walls.ViewModels"
+    xmlns:wpfResources="clr-namespace:WpfResources;assembly=WpfResources"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:vm1="clr-namespace:Walls.AdditionalParameters.vm"
+    xmlns:view="clr-namespace:Walls.MainParameters.view"
     mc:Ignorable="d"
     d:DataContext="{d:DesignInstance viewModel:WallsViewModel}"
     ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen"
-    Title="Walls"
-    Height="450"
-    Width="800">
-    <Grid>
-        <TextBlock
-            Text="Walls"
-            FontSize="60"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center" />
-    </Grid>
+    Background="Transparent"
+    AllowsTransparency="True"
+    WindowStyle="None"
+    Height="800"
+    Width="1200">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme PrimaryColor="BlueGrey" SecondaryColor="LightBlue">
+                    <materialDesign:BundledTheme.BaseTheme>Light</materialDesign:BundledTheme.BaseTheme>
+                </materialDesign:BundledTheme>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" /> 
+                <ResourceDictionary Source="pack://application:,,,/WpfResources;component/Themes/Generic.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Border Style="{StaticResource BorderMainWindow}">
+        <Grid Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+            <wpfResources:TopPanel Grid.Row="0" Heading="Walls"/>
+            <TabControl Grid.Row="1"
+                        materialDesign:ColorZoneAssist.Background="{StaticResource CharcoalGrayBrush}"
+                        materialDesign:ColorZoneAssist.Foreground="{DynamicResource TextBrush}"
+                        materialDesign:ColorZoneAssist.Mode="Custom"
+                        Style="{StaticResource MaterialDesignFilledTabControl}"
+                        SelectedItem="{Binding SelectedTab}">
+                <TabItem Header="Основные параметры">
+                    <view:MainParametersView DataContext="{Binding MainParametersViewModel}"/>
+                </TabItem>
+                <TabItem Header="Дополнительные параметры">
+                    <vm1:AdditionalParametersView DataContext="{Binding AdditionalParametersViewModel}"/>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </Border>
 </Window>

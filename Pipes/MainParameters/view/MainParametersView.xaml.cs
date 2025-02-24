@@ -7,7 +7,6 @@ internal partial class MainParametersView : UserControl
 {
     public MainParametersView()
     {
-
         InitializeComponent();
     }
     

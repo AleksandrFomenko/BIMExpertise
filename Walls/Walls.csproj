@@ -35,8 +35,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="MaterialDesignColors" Version="5.2.2-ci907" />
-        <PackageReference Include="MaterialDesignThemes" Version="5.2.2-ci907" />
+        <PackageReference Include="MaterialDesignColors" Version="5.*" />
+        <PackageReference Include="MaterialDesignThemes" Version="5.*" />
         <PackageReference Include="Nice3point.Revit.Build.Tasks" Version="2.*" />
         <PackageReference Include="Nice3point.Revit.Toolkit" Version="$(RevitVersion).*" />
         <PackageReference Include="Nice3point.Revit.Extensions" Version="$(RevitVersion).*" />
@@ -46,6 +46,24 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="Models" />
+      <ProjectReference Include="..\KapibaraCore\KapibaraCore.csproj" />
+      <ProjectReference Include="..\WpfResources\WpfResources.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="AdditionalParameters\model\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Page Update="MainParameters\view\MainParametersView.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+      <Page Update="AdditionalParameters\view\AdditionalParametersView.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
     </ItemGroup>
 </Project>

@@ -1,7 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Threading;
 using KapibaraCore.Parameters;
-using Nice3point.Revit.Toolkit.External.Handlers;
 using Pipes.MainParameters.model;
 
 namespace Pipes.MainParameters.vm;
@@ -33,6 +32,8 @@ internal partial class MainParametersVm : ObservableObject
     [ObservableProperty] private double _progressMaximum;
     [ObservableProperty] private double _progressValue;
 
+    [ObservableProperty] private bool _buttonEnable;
+
     
 
     private readonly Dispatcher _dispatcher;
@@ -42,6 +43,7 @@ internal partial class MainParametersVm : ObservableObject
         _dispatcher = dispatcher;
         _model = model;
         _doc = doc;
+        ButtonEnable = true;
         Options1 = new List<Options>()
         {
             new Options("Выбрать все в проекте", new FilteredElementCollector(doc)),
@@ -77,6 +79,7 @@ internal partial class MainParametersVm : ObservableObject
     [RelayCommand]
     private void Execute()
     {
+        ButtonEnable = false;
         var elements = Option1.Fec.OfCategory(BuiltInCategory.OST_PipeCurves)
             .WhereElementIsNotElementType()
             .ToList();
@@ -137,6 +140,7 @@ internal partial class MainParametersVm : ObservableObject
                 mainTransaction.Commit();
                 mainTransaction.Dispose();
                 tg.Assimilate();
+                _dispatcher.Invoke(() => { ButtonEnable = true; }, DispatcherPriority.Background);
             }
         };
 

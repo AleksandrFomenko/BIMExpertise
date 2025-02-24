@@ -61,11 +61,11 @@
           "dependencies": {
             "MaterialDesignColors": {
               "target": "Package",
-              "version": "[5.2.2-ci907, )"
+              "version": "[5.*, )"
             },
             "MaterialDesignThemes": {
               "target": "Package",
-              "version": "[5.2.2-ci907, )"
+              "version": "[5.*, )"
             },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
@@ -502,7 +502,14 @@
         "frameworks": {
           "net48": {
             "targetAlias": "net48",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
+                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
+              },
+              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResources\\WpfResources.csproj": {
+                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResources\\WpfResources.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -526,11 +533,11 @@
             },
             "MaterialDesignColors": {
               "target": "Package",
-              "version": "[5.2.2-ci907, )"
+              "version": "[5.*, )"
             },
             "MaterialDesignThemes": {
               "target": "Package",
-              "version": "[5.2.2-ci907, )"
+              "version": "[5.*, )"
             },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",

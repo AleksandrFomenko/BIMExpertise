@@ -4,9 +4,9 @@ namespace Walls.Views;
 
 public sealed partial class WallsView
 {
-    public WallsView(WallsViewModel viewModel)
+    public WallsView()
     {
-        DataContext = viewModel;
         InitializeComponent();
     }
+
 }

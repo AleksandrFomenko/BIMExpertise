@@ -1,50 +1,57 @@
 ﻿using Autodesk.Revit.DB;
+using System.Collections.Generic;
 
-namespace KapibaraCore.Solids;
-
-public static class Solids
+namespace KapibaraCore.Solids
 {
-    public static Solid GetSolid(this Element element)
+    public static class Solids
     {
-        if (element == null) return null;
-
-        var options = new Options
+        public static IEnumerable<Solid> GetSolids(this Element element)
         {
-            DetailLevel = ViewDetailLevel.Fine
-        };
-        var geometryElement = element.get_Geometry(options);
-        if (geometryElement == null)
-            return null;
-        return ExtractSolidFromGeometry(geometryElement);
-    }
+            if (element == null) yield break;
 
-    private static Solid ExtractSolidFromGeometry(GeometryElement geometryElement)
-    {
-        foreach (var geomObj in geometryElement)
-        {
-            var solid = ProcessGeometryObject(geomObj);
-            if (solid != null)
-                return solid;
-        }
-        return null;
-    }
-
-    private static Solid ProcessGeometryObject(GeometryObject geomObj)
-    {
-        if (geomObj is Solid solid && solid.Volume > 0)
-        {
-            return solid;
-        }
-
-        if (geomObj is GeometryInstance geomInstance)
-        {
-            var instanceGeometry = geomInstance.GetInstanceGeometry();
-            if (instanceGeometry != null)
+            var options = new Options
             {
-                return ExtractSolidFromGeometry(instanceGeometry);
+                DetailLevel = ViewDetailLevel.Fine
+            };
+            var geometryElement = element.get_Geometry(options);
+            if (geometryElement == null)
+                yield break;
+
+            foreach (var solid in ExtractSolidsFromGeometry(geometryElement))
+            {
+                yield return solid;
             }
         }
-        return null;
+
+        private static IEnumerable<Solid> ExtractSolidsFromGeometry(GeometryElement geometryElement)
+        {
+            foreach (var geomObj in geometryElement)
+            {
+                foreach (var solid in ProcessGeometryObject(geomObj))
+                {
+                    yield return solid;
+                }
+            }
+        }
+
+        private static IEnumerable<Solid> ProcessGeometryObject(GeometryObject geomObj)
+        {
+            if (geomObj is Solid solid && solid.Volume > 0)
+            {
+                yield return solid;
+            }
+
+            if (geomObj is GeometryInstance geomInstance)
+            {
+                var instanceGeometry = geomInstance.GetInstanceGeometry();
+                if (instanceGeometry != null)
+                {
+                    foreach (var instSolid in ExtractSolidsFromGeometry(instanceGeometry))
+                    {
+                        yield return instSolid;
+                    }
+                }
+            }
+        }
     }
-    
 }

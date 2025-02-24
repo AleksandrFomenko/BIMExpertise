@@ -10,11 +10,11 @@ none
 false
 ;DEBUG;TRACE;DEBUG_R22;NETFRAMEWORK;NET48;
 
-1-1845280721
+3-2112680092
 
-8-1728614031
-37-730591942
-Views\WallsView.xaml;
+141342005690
+471365385337
+AdditionalParameters\view\AdditionalParametersView.xaml;MainParameters\view\MainParametersView.xaml;Views\WallsView.xaml;
 
 False
 
