@@ -23,10 +23,6 @@ public class Class1
                     },
                     Dirs = new Dir[]
                     {
-                        new InstallDir(@"%AppDataFolder%\Autodesk\Revit\Addins\2023\",
-                            new File(@"C:\Users\Sergei Nefyodov\source\repos\Revit-API-Blog\FirstRevitPlugin.addin"),
-                            new Dir(@"FirstRevitPlugin",
-                            new DirFiles(@"C:\Users\Sergei Nefyodov\source\repos\Revit-API-Blog\bin\Debug\*.*")))
                     },
     
                 };
