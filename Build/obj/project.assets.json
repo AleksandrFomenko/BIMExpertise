@@ -1,0 +1,148 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "WixSharp/1.26.0": {
+        "type": "package",
+        "dependencies": {
+          "WixSharp.bin": "1.26.0"
+        },
+        "build": {
+          "build/WixSharp.targets": {}
+        }
+      },
+      "WixSharp.bin/1.26.0": {
+        "type": "package",
+        "build": {
+          "build/WixSharp.bin.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WixSharp/1.26.0": {
+      "sha512": "3nk9+r1zXFkaqjSHUhlRUvuVBniuxhBWCPBMq25odErjC+BbVwhJsluitid+cletTkUEgcD+Homle/zUUoWspA==",
+      "type": "package",
+      "path": "wixsharp/1.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/WixSharp.targets",
+        "wixsharp.1.26.0.nupkg.sha512",
+        "wixsharp.nuspec",
+        "wixsharp_logo.png"
+      ]
+    },
+    "WixSharp.bin/1.26.0": {
+      "sha512": "Zvo9QhWbIxjRCio01OMXZKTxQwkCYifHkZIWgZLO23KT5biBaEG347b74KM+WL9wVX4Kms6Bf9RT5oP1BT8Mfw==",
+      "type": "package",
+      "path": "wixsharp.bin/1.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/WixSharp.bin.targets",
+        "lib/nbsbuilder.exe",
+        "lib/net451/BootstrapperCore.dll",
+        "lib/net451/BootstrapperCore.xml",
+        "lib/net451/Microsoft.Deployment.WindowsInstaller.dll",
+        "lib/net451/Microsoft.Deployment.WindowsInstaller.xml",
+        "lib/net451/WixSharp.Msi.dll",
+        "lib/net451/WixSharp.Msi.xml",
+        "lib/net451/WixSharp.UI.dll",
+        "lib/net451/WixSharp.UI.xml",
+        "lib/net451/WixSharp.dll",
+        "lib/net451/WixSharp.xml",
+        "lib/net462/BootstrapperCore.dll",
+        "lib/net462/BootstrapperCore.xml",
+        "lib/net462/Microsoft.Deployment.WindowsInstaller.dll",
+        "lib/net462/Microsoft.Deployment.WindowsInstaller.xml",
+        "lib/net462/WixSharp.Msi.dll",
+        "lib/net462/WixSharp.Msi.xml",
+        "lib/net462/WixSharp.UI.dll",
+        "lib/net462/WixSharp.UI.xml",
+        "lib/net462/WixSharp.dll",
+        "lib/net462/WixSharp.xml",
+        "wixsharp.bin.1.26.0.nupkg.sha512",
+        "wixsharp.bin.nuspec",
+        "wixsharp_logo.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "WixSharp >= 1.*",
+      "WixSharp.bin >= 1.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj",
+      "projectName": "Build",
+      "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj",
+      "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "WixSharp": {
+            "target": "Package",
+            "version": "[1.*, )"
+          },
+          "WixSharp.bin": {
+            "target": "Package",
+            "version": "[1.*, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
