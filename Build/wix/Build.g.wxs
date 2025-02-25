@@ -6,31 +6,296 @@
 </auto-generated>
 -->
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-  <Product Id="d56a3f69-deb4-4332-b726-1df077094e7e" Name="BIMExpetrise" Language="1033" Codepage="Windows-1252" Version="1.0.6" UpgradeCode="d56a3f69-deb4-4332-b726-1df06709de7e" Manufacturer="FomenkoA">
+  <Product Id="d56a3f69-deb4-4332-b726-1df077094e7e" Name="BIMExpertise" Language="1033" Codepage="Windows-1252" Version="1.0.6" UpgradeCode="d56a3f69-deb4-4332-b726-1df06709de7e" Manufacturer="FomenkoA">
     <Package InstallerVersion="200" Compressed="yes" SummaryCodepage="Windows-1252" Languages="1033" />
-    <Media Id="1" Cabinet="BIMExpetrise.cab" EmbedCab="yes" />
+    <Media Id="1" Cabinet="BIMExpertise.cab" EmbedCab="yes" />
 
     <Directory Id="TARGETDIR" Name="SourceDir">
       <Directory Id="AppDataFolder" Name="AppDataFolder">
         <Directory Id="Autodesk" Name="Autodesk">
           <Directory Id="Revit" Name="Revit">
-            <Directory Id="Addins" Name="Addins">
-              <Directory Id="INSTALLDIR" Name="2023">
+            <Directory Id="INSTALLDIR" Name="Addins">
+              <Directory Id="_2022_" Name="2022">
 
-                <Component Id="Component.BIMExpertise.addin_3980987471" Guid="d56a3f69-deb4-4332-b726-1df07615d73b">
-                  <File Id="BIMExpertise.addin_3980987471" Source="..\BIMExpertise\bin\Release R23\publish\Revit 2023 Release R23 addin\BIMExpertise.addin" />
-                  <RemoveFolder Id="INSTALLDIR" On="uninstall" />
+                <Component Id="Component.BIMExpertise.addin_363209597" Guid="d56a3f69-deb4-4332-b726-1df009bafa93">
+                  <File Id="BIMExpertise.addin_363209597" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise.addin" />
+                  <RemoveFolder Id="_2022_" On="uninstall" />
 
                   <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
                     <RegistryValue Value="0" Type="string" KeyPath="yes" />
                   </RegistryKey>
                 </Component>
 
-                <Directory Id="BIMExpertise" Name="BIMExpertise">
+                <Directory Id="BIMExpertise_" Name="BIMExpertise">
+
+                  <Component Id="Component.BIMExpertise.dll_4186445926" Guid="d56a3f69-deb4-4332-b726-1df0432799fa">
+                    <File Id="BIMExpertise.dll_4186445926" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\BIMExpertise.dll" />
+                    <RemoveFolder Id="BIMExpertise_" On="uninstall" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.CommunityToolkit.Mvvm.dll_1796467690" Guid="d56a3f69-deb4-4332-b726-1df0895d4c19">
+                    <File Id="CommunityToolkit.Mvvm.dll_1796467690" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\CommunityToolkit.Mvvm.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.JetBrains.Annotations.dll_3697217861" Guid="d56a3f69-deb4-4332-b726-1df0ae1dc137">
+                    <File Id="JetBrains.Annotations.dll_3697217861" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\JetBrains.Annotations.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.KapibaraCore.dll_3882793950" Guid="d56a3f69-deb4-4332-b726-1df036737b67">
+                    <File Id="KapibaraCore.dll_3882793950" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\KapibaraCore.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.MaterialDesignColors.dll_3505449688" Guid="d56a3f69-deb4-4332-b726-1df0e01a0249">
+                    <File Id="MaterialDesignColors.dll_3505449688" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\MaterialDesignColors.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.MaterialDesignThemes.Wpf.dll_1166021737" Guid="d56a3f69-deb4-4332-b726-1df002a9e3c2">
+                    <File Id="MaterialDesignThemes.Wpf.dll_1166021737" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\MaterialDesignThemes.Wpf.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.Microsoft.Bcl.AsyncInterfaces.dll_3985925440" Guid="d56a3f69-deb4-4332-b726-1df0a4f71246">
+                    <File Id="Microsoft.Bcl.AsyncInterfaces.dll_3985925440" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\Microsoft.Bcl.AsyncInterfaces.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.Microsoft.Xaml.Behaviors.dll_4267008219" Guid="d56a3f69-deb4-4332-b726-1df090037421">
+                    <File Id="Microsoft.Xaml.Behaviors.dll_4267008219" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\Microsoft.Xaml.Behaviors.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.Newtonsoft.Json.dll_441040328" Guid="d56a3f69-deb4-4332-b726-1df0591e2e46">
+                    <File Id="Newtonsoft.Json.dll_441040328" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\Newtonsoft.Json.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.Nice3point.Revit.Extensions.dll_2103477014" Guid="d56a3f69-deb4-4332-b726-1df0fbca1c09">
+                    <File Id="Nice3point.Revit.Extensions.dll_2103477014" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\Nice3point.Revit.Extensions.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.Nice3point.Revit.Toolkit.dll_2644443283" Guid="d56a3f69-deb4-4332-b726-1df08090f236">
+                    <File Id="Nice3point.Revit.Toolkit.dll_2644443283" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\Nice3point.Revit.Toolkit.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.Pipes.dll_2257916051" Guid="d56a3f69-deb4-4332-b726-1df0218492d1">
+                    <File Id="Pipes.dll_2257916051" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\Pipes.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.PipesFittings.dll_992668355" Guid="d56a3f69-deb4-4332-b726-1df0d7754582">
+                    <File Id="PipesFittings.dll_992668355" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\PipesFittings.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.SharpVectors.Converters.Wpf.dll_3946599732" Guid="d56a3f69-deb4-4332-b726-1df040af5512">
+                    <File Id="SharpVectors.Converters.Wpf.dll_3946599732" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\SharpVectors.Converters.Wpf.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.SharpVectors.Core.dll_3682428019" Guid="d56a3f69-deb4-4332-b726-1df03287e897">
+                    <File Id="SharpVectors.Core.dll_3682428019" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\SharpVectors.Core.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.SharpVectors.Css.dll_3503136473" Guid="d56a3f69-deb4-4332-b726-1df043cbdcbd">
+                    <File Id="SharpVectors.Css.dll_3503136473" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\SharpVectors.Css.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.SharpVectors.Dom.dll_2041790797" Guid="d56a3f69-deb4-4332-b726-1df069992e4c">
+                    <File Id="SharpVectors.Dom.dll_2041790797" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\SharpVectors.Dom.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.SharpVectors.Model.dll_3067588517" Guid="d56a3f69-deb4-4332-b726-1df0a7621c13">
+                    <File Id="SharpVectors.Model.dll_3067588517" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\SharpVectors.Model.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.SharpVectors.Rendering.Wpf.dll_1836177552" Guid="d56a3f69-deb4-4332-b726-1df097bab581">
+                    <File Id="SharpVectors.Rendering.Wpf.dll_1836177552" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\SharpVectors.Rendering.Wpf.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.SharpVectors.Runtime.Wpf.dll_351995863" Guid="d56a3f69-deb4-4332-b726-1df0628b541d">
+                    <File Id="SharpVectors.Runtime.Wpf.dll_351995863" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\SharpVectors.Runtime.Wpf.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.SpaceHeater.dll_1300816712" Guid="d56a3f69-deb4-4332-b726-1df0a73b101e">
+                    <File Id="SpaceHeater.dll_1300816712" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\SpaceHeater.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.System.Buffers.dll_1528421146" Guid="d56a3f69-deb4-4332-b726-1df0438447a4">
+                    <File Id="System.Buffers.dll_1528421146" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\System.Buffers.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.System.ComponentModel.Annotations.dll_2722971259" Guid="d56a3f69-deb4-4332-b726-1df0ba961fcb">
+                    <File Id="System.ComponentModel.Annotations.dll_2722971259" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\System.ComponentModel.Annotations.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.System.Memory.dll_3922731138" Guid="d56a3f69-deb4-4332-b726-1df0788c9b2a">
+                    <File Id="System.Memory.dll_3922731138" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\System.Memory.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.System.Numerics.Vectors.dll_2507403599" Guid="d56a3f69-deb4-4332-b726-1df036a0ebcb">
+                    <File Id="System.Numerics.Vectors.dll_2507403599" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\System.Numerics.Vectors.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.System.Runtime.CompilerServices.Unsafe.dll_964736788" Guid="d56a3f69-deb4-4332-b726-1df0a2e15804">
+                    <File Id="System.Runtime.CompilerServices.Unsafe.dll_964736788" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\System.Runtime.CompilerServices.Unsafe.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.System.Threading.Tasks.Extensions.dll_1173177767" Guid="d56a3f69-deb4-4332-b726-1df0af50ca79">
+                    <File Id="System.Threading.Tasks.Extensions.dll_1173177767" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\System.Threading.Tasks.Extensions.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.Valve.dll_1610293499" Guid="d56a3f69-deb4-4332-b726-1df0fc2a435a">
+                    <File Id="Valve.dll_1610293499" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\Valve.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.Walls.dll_500504976" Guid="d56a3f69-deb4-4332-b726-1df0eae823df">
+                    <File Id="Walls.dll_500504976" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\Walls.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.WpfResources.dll_3461165436" Guid="d56a3f69-deb4-4332-b726-1df0bbef7b7e">
+                    <File Id="WpfResources.dll_3461165436" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\WpfResources.dll" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                  <Component Id="Component.WpfResources.pdb_2200098388" Guid="d56a3f69-deb4-4332-b726-1df084e99ce3">
+                    <File Id="WpfResources.pdb_2200098388" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise\WpfResources.pdb" />
+
+                    <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                      <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                    </RegistryKey>
+                  </Component>
+
+                </Directory>
+              </Directory>
+
+              <Directory Id="_2023_" Name="2023">
+
+                <Component Id="Component.BIMExpertise.addin_3980987471" Guid="d56a3f69-deb4-4332-b726-1df07615d73b">
+                  <File Id="BIMExpertise.addin_3980987471" Source="..\BIMExpertise\bin\Release R23\publish\Revit 2023 Release R23 addin\BIMExpertise.addin" />
+                  <RemoveFolder Id="_2023_" On="uninstall" />
+
+                  <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                    <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                  </RegistryKey>
+                </Component>
+
+                <Directory Id="BIMExpertise.1" Name="BIMExpertise">
 
                   <Component Id="Component.BIMExpertise.dll_12183590" Guid="d56a3f69-deb4-4332-b726-1df039f20f59">
                     <File Id="BIMExpertise.dll_12183590" Source="..\BIMExpertise\bin\Release R23\publish\Revit 2023 Release R23 addin\BIMExpertise\BIMExpertise.dll" />
-                    <RemoveFolder Id="BIMExpertise" On="uninstall" />
+                    <RemoveFolder Id="BIMExpertise.1" On="uninstall" />
 
                     <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
                       <RegistryValue Value="0" Type="string" KeyPath="yes" />
@@ -280,8 +545,8 @@
                 </Directory>
               </Directory>
 
-              <Component Id="Addins" Guid="d56a3f69-deb4-4332-b726-1df01e99e75f">
-                <RemoveFolder Id="Addins" On="uninstall" />
+              <Component Id="INSTALLDIR" Guid="d56a3f69-deb4-4332-b726-1df012264356">
+                <RemoveFolder Id="INSTALLDIR" On="uninstall" />
 
                 <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
                   <RegistryValue Value="0" Type="string" KeyPath="yes" />
@@ -317,6 +582,38 @@
     <Property Id="REINSTALLMODE" Value="omus" />
 
     <Feature Id="Complete" Title="Complete" Absent="allow" Level="1">
+      <ComponentRef Id="Component.BIMExpertise.addin_363209597" />
+      <ComponentRef Id="Component.BIMExpertise.dll_4186445926" />
+      <ComponentRef Id="Component.CommunityToolkit.Mvvm.dll_1796467690" />
+      <ComponentRef Id="Component.JetBrains.Annotations.dll_3697217861" />
+      <ComponentRef Id="Component.KapibaraCore.dll_3882793950" />
+      <ComponentRef Id="Component.MaterialDesignColors.dll_3505449688" />
+      <ComponentRef Id="Component.MaterialDesignThemes.Wpf.dll_1166021737" />
+      <ComponentRef Id="Component.Microsoft.Bcl.AsyncInterfaces.dll_3985925440" />
+      <ComponentRef Id="Component.Microsoft.Xaml.Behaviors.dll_4267008219" />
+      <ComponentRef Id="Component.Newtonsoft.Json.dll_441040328" />
+      <ComponentRef Id="Component.Nice3point.Revit.Extensions.dll_2103477014" />
+      <ComponentRef Id="Component.Nice3point.Revit.Toolkit.dll_2644443283" />
+      <ComponentRef Id="Component.Pipes.dll_2257916051" />
+      <ComponentRef Id="Component.PipesFittings.dll_992668355" />
+      <ComponentRef Id="Component.SharpVectors.Converters.Wpf.dll_3946599732" />
+      <ComponentRef Id="Component.SharpVectors.Core.dll_3682428019" />
+      <ComponentRef Id="Component.SharpVectors.Css.dll_3503136473" />
+      <ComponentRef Id="Component.SharpVectors.Dom.dll_2041790797" />
+      <ComponentRef Id="Component.SharpVectors.Model.dll_3067588517" />
+      <ComponentRef Id="Component.SharpVectors.Rendering.Wpf.dll_1836177552" />
+      <ComponentRef Id="Component.SharpVectors.Runtime.Wpf.dll_351995863" />
+      <ComponentRef Id="Component.SpaceHeater.dll_1300816712" />
+      <ComponentRef Id="Component.System.Buffers.dll_1528421146" />
+      <ComponentRef Id="Component.System.ComponentModel.Annotations.dll_2722971259" />
+      <ComponentRef Id="Component.System.Memory.dll_3922731138" />
+      <ComponentRef Id="Component.System.Numerics.Vectors.dll_2507403599" />
+      <ComponentRef Id="Component.System.Runtime.CompilerServices.Unsafe.dll_964736788" />
+      <ComponentRef Id="Component.System.Threading.Tasks.Extensions.dll_1173177767" />
+      <ComponentRef Id="Component.Valve.dll_1610293499" />
+      <ComponentRef Id="Component.Walls.dll_500504976" />
+      <ComponentRef Id="Component.WpfResources.dll_3461165436" />
+      <ComponentRef Id="Component.WpfResources.pdb_2200098388" />
       <ComponentRef Id="Component.BIMExpertise.addin_3980987471" />
       <ComponentRef Id="Component.BIMExpertise.dll_12183590" />
       <ComponentRef Id="Component.CommunityToolkit.Mvvm.dll_1367703603" />
@@ -351,7 +648,7 @@
       <ComponentRef Id="Component.WpfResources.pdb_1667793824" />
       <ComponentRef Id="Autodesk" />
       <ComponentRef Id="Revit" />
-      <ComponentRef Id="Addins" />
+      <ComponentRef Id="INSTALLDIR" />
     </Feature>
 
   </Product>

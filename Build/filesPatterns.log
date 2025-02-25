@@ -1,12 +1,8 @@
-Версия R21:
-  Исходный путь: ..\BIMExpertise\bin\Release R21\publish\Revit 2021 Release R21 addin\*.*
-  Целевая директория: %AppDataFolder%\Autodesk\Revit\Addins\2021
-
 Версия R22:
-  Исходный путь: ..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\*.*
+  Исходный путь (шаблон): ..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\*.*
   Целевая директория: %AppDataFolder%\Autodesk\Revit\Addins\2022
 
 Версия R23:
-  Исходный путь: ..\BIMExpertise\bin\Release R23\publish\Revit 2023 Release R23 addin\*.*
+  Исходный путь (шаблон): ..\BIMExpertise\bin\Release R23\publish\Revit 2023 Release R23 addin\*.*
   Целевая директория: %AppDataFolder%\Autodesk\Revit\Addins\2023
 
