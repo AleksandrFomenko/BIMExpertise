@@ -1,0 +1,8 @@
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\obj\Release R21\Walls.csproj.AssemblyReference.cache
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\obj\Release R21\MainParameters\view\MainParametersView.baml
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\obj\Release R21\AdditionalParameters\view\AdditionalParametersView.g.cs
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\obj\Release R21\MainParameters\view\MainParametersView.g.cs
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\obj\Release R21\Views\WallsView.g.cs
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\obj\Release R21\GeneratedInternalTypeHelper.g.cs
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\obj\Release R21\Walls_MarkupCompile.cache
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\obj\Release R21\Walls_MarkupCompile.lref

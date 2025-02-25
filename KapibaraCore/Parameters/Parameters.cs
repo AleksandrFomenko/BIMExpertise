@@ -215,9 +215,11 @@ public static class Parameters
             if (definition == null)
                 continue;
 
-
+#if REVIT2022_OR_GREATER
             var paramType = definition.GetDataType();
-
+#else
+            var paramType = definition.ParameterType;
+#endif
             if (paramType != type) continue;
             if (uniqueParameters.Add(definition.Name))
             {

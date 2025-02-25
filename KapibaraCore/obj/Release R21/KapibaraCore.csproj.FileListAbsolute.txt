@@ -1,0 +1,5 @@
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\KapibaraCore\obj\Release R21\KapibaraCore.csproj.AssemblyReference.cache
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\KapibaraCore\obj\Release R21\KapibaraCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\KapibaraCore\obj\Release R21\KapibaraCore.AssemblyInfoInputs.cache
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\KapibaraCore\obj\Release R21\KapibaraCore.AssemblyInfo.cs
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\KapibaraCore\obj\Release R21\KapibaraCore.csproj.CoreCompileInputs.cache

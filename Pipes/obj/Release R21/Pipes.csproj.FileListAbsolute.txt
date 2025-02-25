@@ -1,0 +1,8 @@
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Pipes\obj\Release R21\Pipes.csproj.AssemblyReference.cache
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Pipes\obj\Release R21\MainParameters\view\MainParametersView.baml
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Pipes\obj\Release R21\AdditionalParameters\view\AdditionalParametersView.g.cs
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Pipes\obj\Release R21\MainParameters\view\MainParametersView.g.cs
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Pipes\obj\Release R21\Views\PipesView.g.cs
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Pipes\obj\Release R21\GeneratedInternalTypeHelper.g.cs
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Pipes\obj\Release R21\Pipes_MarkupCompile.cache
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Pipes\obj\Release R21\Pipes_MarkupCompile.lref
