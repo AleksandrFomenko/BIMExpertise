@@ -4,9 +4,9 @@ namespace PipesFittings.Views;
 
 public sealed partial class PipesFittingsView
 {
-    public PipesFittingsView(PipesFittingsViewModel viewModel)
+    public PipesFittingsView()
     {
-        DataContext = viewModel;
+        
         InitializeComponent();
     }
 }

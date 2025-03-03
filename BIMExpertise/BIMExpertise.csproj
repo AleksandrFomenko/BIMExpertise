@@ -58,13 +58,24 @@
         <Resource Include="Resources\Icons\Valve32.png" />
         <Resource Include="Resources\Icons\SpaceHeater32.png" />
         <Resource Include="Resources\Icons\PipesFittings32.png" />
-        <None Remove="Resources\Icons\PipesIcon32.png" />
         <Resource Include="Resources\Icons\PipesIcon32.png" />
-        <None Remove="Resources\Icons\SystemName.png" />
         <Resource Include="Resources\Icons\SystemName.png" />
+        <Resource Include="Resources\Icons\AirTerminal32.png" />
+        <Resource Include="Resources\Icons\DuctFittings32.png" />
+        <Resource Include="Resources\Icons\DuctIcon32.png" />
+        <Resource Include="Resources\Icons\DuctIsolation32.png" />
+        <Resource Include="Resources\Icons\Fan32.png" />
+        <Resource Include="Resources\Icons\PipesIsolation32.png" />
     </ItemGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\AirTerminal\AirTerminal.csproj" />
+        <ProjectReference Include="..\Build\Build.csproj" />
+        <ProjectReference Include="..\DuctFan\DuctFan.csproj" />
+        <ProjectReference Include="..\DuctFittings\DuctFittings.csproj" />
+        <ProjectReference Include="..\DuctInsolation\DuctInsolation.csproj" />
+        <ProjectReference Include="..\Duct\Duct.csproj" />
+        <ProjectReference Include="..\PipeInsulation\PipeInsulation.csproj" />
         <ProjectReference Include="..\PipesFittings\PipesFittings.csproj" />
         <ProjectReference Include="..\Pipes\Pipes.csproj" />
         <ProjectReference Include="..\SpaceHeater\SpaceHeater.csproj" />

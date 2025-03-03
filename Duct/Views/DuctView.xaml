@@ -1,0 +1,22 @@
+﻿<Window
+    x:Class="Duct.Views.DuctView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:viewModel="clr-namespace:Duct.ViewModels"
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignInstance viewModel:DuctViewModel}"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
+    Title="Duct"
+    Height="450"
+    Width="800">
+    <Grid>
+        <TextBlock
+            Text="Duct"
+            FontSize="60"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center" />
+    </Grid>
+</Window>

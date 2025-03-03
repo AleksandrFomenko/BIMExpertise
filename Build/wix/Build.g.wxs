@@ -26,6 +26,14 @@
                   </RegistryKey>
                 </Component>
 
+                <Component Id="Component.BIMExpertise.rar_4142847124" Guid="d56a3f69-deb4-4332-b726-1df0cf07b506">
+                  <File Id="BIMExpertise.rar_4142847124" Source="..\BIMExpertise\bin\Release R22\publish\Revit 2022 Release R22 addin\BIMExpertise.rar" />
+
+                  <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                    <RegistryValue Value="0" Type="string" KeyPath="yes" />
+                  </RegistryKey>
+                </Component>
+
                 <Directory Id="BIMExpertise_" Name="BIMExpertise">
 
                   <Component Id="Component.BIMExpertise.dll_4186445926" Guid="d56a3f69-deb4-4332-b726-1df0432799fa">
@@ -583,6 +591,7 @@
 
     <Feature Id="Complete" Title="Complete" Absent="allow" Level="1">
       <ComponentRef Id="Component.BIMExpertise.addin_363209597" />
+      <ComponentRef Id="Component.BIMExpertise.rar_4142847124" />
       <ComponentRef Id="Component.BIMExpertise.dll_4186445926" />
       <ComponentRef Id="Component.CommunityToolkit.Mvvm.dll_1796467690" />
       <ComponentRef Id="Component.JetBrains.Annotations.dll_3697217861" />

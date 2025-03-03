@@ -14,8 +14,11 @@ public class StartupCommand : ExternalCommand
 {
     public override void Execute()
     {
-        var viewModel = new ValveViewModel();
-        var view = new ValveView(viewModel);
+        var doc = Context.ActiveDocument;
+        var view = new ValveView();
+        var viewModel = new ValveViewModel(doc, view.Dispatcher);
+        view.DataContext = viewModel;
+        
         view.ShowDialog();
     }
 }

@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\AirTerminal.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\AirTerminal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\AirTerminal.csproj",
+        "projectName": "AirTerminal",
+        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\AirTerminal.csproj",
+        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPIUI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Build.Tasks": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Nice3point.Revit.Extensions": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Toolkit": {
+              "target": "Package",
+              "version": "[2022.3.0-preview.3.250129, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

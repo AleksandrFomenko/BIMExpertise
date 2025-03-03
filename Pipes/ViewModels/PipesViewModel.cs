@@ -19,7 +19,6 @@ namespace Pipes.ViewModels
             _dispatcher = dispatcher;
             var mainParametersModel = new MainParametersModel(doc);
             MainParametersViewModel = new MainParametersVm(mainParametersModel, doc, _dispatcher);
-            
         }
     }
 }

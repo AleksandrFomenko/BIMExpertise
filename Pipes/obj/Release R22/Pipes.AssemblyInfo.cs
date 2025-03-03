@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pipes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release R22")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+692951137c9f4747759d0498cf20244c4c63682c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1ba9732392bc500aa41592e7e389c630bf5e8b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pipes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pipes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

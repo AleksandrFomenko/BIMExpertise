@@ -114,9 +114,42 @@ namespace Pipes.MainParameters.model
                         { 32, 0.38 },
                         { 40, 0.59 },
                     }
+                },
+                { "sml", new Dictionary<double, double>
+                    {
+                        { 50, 5.2 },
+                        { 100, 8.5 },
+                        { 110, 8.5 },
+                        { 150, 14 }
+                    }
+                },
+                { "auqatherm_green", new Dictionary<double, double>
+                    {
+                        { 15, 0.142 },
+                        { 20, 0.158 },
+                        { 25, 0.246 },
+                        { 32, 0.394 },
+                        { 40, 0.613 },
+                        { 50, 1.029 },
+                        { 63, 1.647 },
+                        { 65, 1.647 },
+                        { 75, 2.323 },
+                        { 80, 2.323 },
+                        { 90, 3.358 },
+                        { 110, 4.999 },
+                    }
+                },
+                { "polytron", new Dictionary<double, double>
+                    {
+                        { 50, 0.89 },
+                        { 100, 2.59 },
+                        { 110, 2.59 }
+                    }
                 }
+                
             };
 
+            
             var typeElement = doc.GetElement(pipe.GetTypeId());
             var parameter = pipe.GetParameterByName(DiamParameter)?.AsValueString()
                             ?? typeElement?.Name

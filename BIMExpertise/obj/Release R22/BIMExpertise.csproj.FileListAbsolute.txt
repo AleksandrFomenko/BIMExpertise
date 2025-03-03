@@ -37,3 +37,17 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\obj\Release R22\BIMEx
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\obj\Release R22\BIMExpertise.csproj.CoreCompileInputs.cache
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\obj\Release R22\BIMExper.1838B3C3.Up2Date
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\obj\Release R22\BIMExpertise.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\BootstrapperCore.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\Microsoft.Deployment.WindowsInstaller.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\WixSharp.Msi.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\WixSharp.UI.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\WixSharp.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\AirTerminal.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\Build.exe
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\Duct.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\DuctFan.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\DuctFittings.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\DuctInsolation.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\PipeInsulation.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\Build.pdb
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Release R22\Build.exe.config

@@ -14,8 +14,11 @@ public class StartupCommand : ExternalCommand
 {
     public override void Execute()
     {
-        var viewModel = new PipesFittingsViewModel();
-        var view = new PipesFittingsView(viewModel);
+        var doc = Context.ActiveDocument;
+        var view = new PipesFittingsView();
+        var viewModel = new PipesFittingsViewModel(doc, view.Dispatcher);
+        view.DataContext = viewModel;
+        
         view.ShowDialog();
     }
 }

@@ -10,11 +10,11 @@ none
 false
 ;RELEASE;TRACE;RELEASE_R22;NETFRAMEWORK;NET48;
 
-1-1169693222
+31294353399
 
-8351424411
-37346475337
-Views\ValveView.xaml;
+13-1461937669
+471120139467
+AdditionalParameters\View\AdditionalParametersView.xaml;MainParameters\View\MainParametersView.xaml;Views\ValveView.xaml;
 
-True
+False
 

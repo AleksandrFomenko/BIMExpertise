@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Walls")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug R22")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7aaf1f84c2ef95576971b57b8aeb02afb1c9a193")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1ba9732392bc500aa41592e7e389c630bf5e8b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Walls")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Walls")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

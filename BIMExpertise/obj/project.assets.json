@@ -334,6 +334,159 @@
           }
         }
       },
+      "WixSharp/1.26.0": {
+        "type": "package",
+        "dependencies": {
+          "WixSharp.bin": "1.26.0"
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "WixSharp.bin/1.26.0": {
+        "type": "package",
+        "compile": {
+          "lib/net462/BootstrapperCore.dll": {
+            "related": ".xml"
+          },
+          "lib/net462/Microsoft.Deployment.WindowsInstaller.dll": {
+            "related": ".xml"
+          },
+          "lib/net462/WixSharp.Msi.dll": {
+            "related": ".xml"
+          },
+          "lib/net462/WixSharp.UI.dll": {
+            "related": ".xml"
+          },
+          "lib/net462/WixSharp.dll": {
+            "related": ".Msi.xml;.UI.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/BootstrapperCore.dll": {
+            "related": ".xml"
+          },
+          "lib/net462/Microsoft.Deployment.WindowsInstaller.dll": {
+            "related": ".xml"
+          },
+          "lib/net462/WixSharp.Msi.dll": {
+            "related": ".xml"
+          },
+          "lib/net462/WixSharp.UI.dll": {
+            "related": ".xml"
+          },
+          "lib/net462/WixSharp.dll": {
+            "related": ".Msi.xml;.UI.xml;.xml"
+          }
+        },
+        "build": {
+          "build/_._": {}
+        }
+      },
+      "AirTerminal/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.0.0",
+          "Nice3point.Revit.Api.RevitAPI": "2022.0.0",
+          "Nice3point.Revit.Api.RevitAPIUI": "2022.0.0",
+          "Nice3point.Revit.Build.Tasks": "2.0.0",
+          "Nice3point.Revit.Extensions": "2022.0.0",
+          "Nice3point.Revit.Toolkit": "2022.3.0-preview.3.250129"
+        },
+        "compile": {
+          "bin/placeholder/AirTerminal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AirTerminal.dll": {}
+        }
+      },
+      "Build/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "WixSharp": "1.26.0",
+          "WixSharp.bin": "1.26.0"
+        },
+        "compile": {
+          "bin/placeholder/Build.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Build.dll": {}
+        }
+      },
+      "Duct/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.0.0",
+          "Nice3point.Revit.Api.RevitAPI": "2022.0.0",
+          "Nice3point.Revit.Api.RevitAPIUI": "2022.0.0",
+          "Nice3point.Revit.Build.Tasks": "2.0.0",
+          "Nice3point.Revit.Extensions": "2022.0.0",
+          "Nice3point.Revit.Toolkit": "2022.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Duct.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Duct.dll": {}
+        }
+      },
+      "DuctFan/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.0.0",
+          "Nice3point.Revit.Api.RevitAPI": "2022.1.21",
+          "Nice3point.Revit.Api.RevitAPIUI": "2022.0.0",
+          "Nice3point.Revit.Build.Tasks": "2.0.0",
+          "Nice3point.Revit.Extensions": "2022.0.0",
+          "Nice3point.Revit.Toolkit": "2022.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DuctFan.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DuctFan.dll": {}
+        }
+      },
+      "DuctFittings/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.0.0",
+          "Nice3point.Revit.Api.RevitAPI": "2022.0.0",
+          "Nice3point.Revit.Api.RevitAPIUI": "2022.0.0",
+          "Nice3point.Revit.Build.Tasks": "2.0.0",
+          "Nice3point.Revit.Extensions": "2022.0.0",
+          "Nice3point.Revit.Toolkit": "2022.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DuctFittings.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DuctFittings.dll": {}
+        }
+      },
+      "DuctInsolation/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.0.0",
+          "Nice3point.Revit.Api.RevitAPI": "2022.0.0",
+          "Nice3point.Revit.Api.RevitAPIUI": "2022.0.0",
+          "Nice3point.Revit.Build.Tasks": "2.0.0",
+          "Nice3point.Revit.Extensions": "2022.0.0",
+          "Nice3point.Revit.Toolkit": "2022.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DuctInsolation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DuctInsolation.dll": {}
+        }
+      },
       "KapibaraCore/1.0.0": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.8",
@@ -351,6 +504,24 @@
         },
         "runtime": {
           "bin/placeholder/KapibaraCore.dll": {}
+        }
+      },
+      "PipeInsulation/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.0.0",
+          "Nice3point.Revit.Api.RevitAPI": "2022.0.0",
+          "Nice3point.Revit.Api.RevitAPIUI": "2022.0.0",
+          "Nice3point.Revit.Build.Tasks": "2.0.0",
+          "Nice3point.Revit.Extensions": "2022.0.0",
+          "Nice3point.Revit.Toolkit": "2022.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PipeInsulation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PipeInsulation.dll": {}
         }
       },
       "Pipes/1.0.0": {
@@ -380,13 +551,15 @@
         "framework": ".NETFramework,Version=v4.8",
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.0.0",
+          "KapibaraCore": "1.0.0",
           "MaterialDesignColors": "5.0.0",
           "MaterialDesignThemes": "5.0.0",
           "Nice3point.Revit.Api.RevitAPI": "2022.0.0",
           "Nice3point.Revit.Api.RevitAPIUI": "2022.0.0",
           "Nice3point.Revit.Build.Tasks": "2.0.0",
           "Nice3point.Revit.Extensions": "2022.0.0",
-          "Nice3point.Revit.Toolkit": "2022.0.0"
+          "Nice3point.Revit.Toolkit": "2022.0.0",
+          "WpfResources": "1.0.0"
         },
         "compile": {
           "bin/placeholder/PipesFittings.dll": {}
@@ -420,13 +593,15 @@
         "framework": ".NETFramework,Version=v4.8",
         "dependencies": {
           "CommunityToolkit.Mvvm": "8.0.0",
+          "KapibaraCore": "1.0.0",
           "MaterialDesignColors": "5.0.0",
           "MaterialDesignThemes": "5.0.0",
           "Nice3point.Revit.Api.RevitAPI": "2022.0.0",
           "Nice3point.Revit.Api.RevitAPIUI": "2022.0.0",
           "Nice3point.Revit.Build.Tasks": "2.0.0",
           "Nice3point.Revit.Extensions": "2022.0.0",
-          "Nice3point.Revit.Toolkit": "2022.0.0"
+          "Nice3point.Revit.Toolkit": "2022.0.0",
+          "WpfResources": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Valve.dll": {}
@@ -1114,10 +1289,92 @@
         "version.txt"
       ]
     },
+    "WixSharp/1.26.0": {
+      "sha512": "3nk9+r1zXFkaqjSHUhlRUvuVBniuxhBWCPBMq25odErjC+BbVwhJsluitid+cletTkUEgcD+Homle/zUUoWspA==",
+      "type": "package",
+      "path": "wixsharp/1.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/WixSharp.targets",
+        "wixsharp.1.26.0.nupkg.sha512",
+        "wixsharp.nuspec",
+        "wixsharp_logo.png"
+      ]
+    },
+    "WixSharp.bin/1.26.0": {
+      "sha512": "Zvo9QhWbIxjRCio01OMXZKTxQwkCYifHkZIWgZLO23KT5biBaEG347b74KM+WL9wVX4Kms6Bf9RT5oP1BT8Mfw==",
+      "type": "package",
+      "path": "wixsharp.bin/1.26.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/WixSharp.bin.targets",
+        "lib/nbsbuilder.exe",
+        "lib/net451/BootstrapperCore.dll",
+        "lib/net451/BootstrapperCore.xml",
+        "lib/net451/Microsoft.Deployment.WindowsInstaller.dll",
+        "lib/net451/Microsoft.Deployment.WindowsInstaller.xml",
+        "lib/net451/WixSharp.Msi.dll",
+        "lib/net451/WixSharp.Msi.xml",
+        "lib/net451/WixSharp.UI.dll",
+        "lib/net451/WixSharp.UI.xml",
+        "lib/net451/WixSharp.dll",
+        "lib/net451/WixSharp.xml",
+        "lib/net462/BootstrapperCore.dll",
+        "lib/net462/BootstrapperCore.xml",
+        "lib/net462/Microsoft.Deployment.WindowsInstaller.dll",
+        "lib/net462/Microsoft.Deployment.WindowsInstaller.xml",
+        "lib/net462/WixSharp.Msi.dll",
+        "lib/net462/WixSharp.Msi.xml",
+        "lib/net462/WixSharp.UI.dll",
+        "lib/net462/WixSharp.UI.xml",
+        "lib/net462/WixSharp.dll",
+        "lib/net462/WixSharp.xml",
+        "wixsharp.bin.1.26.0.nupkg.sha512",
+        "wixsharp.bin.nuspec",
+        "wixsharp_logo.png"
+      ]
+    },
+    "AirTerminal/1.0.0": {
+      "type": "project",
+      "path": "../AirTerminal/AirTerminal.csproj",
+      "msbuildProject": "../AirTerminal/AirTerminal.csproj"
+    },
+    "Build/1.0.0": {
+      "type": "project",
+      "path": "../Build/Build.csproj",
+      "msbuildProject": "../Build/Build.csproj"
+    },
+    "Duct/1.0.0": {
+      "type": "project",
+      "path": "../Duct/Duct.csproj",
+      "msbuildProject": "../Duct/Duct.csproj"
+    },
+    "DuctFan/1.0.0": {
+      "type": "project",
+      "path": "../DuctFan/DuctFan.csproj",
+      "msbuildProject": "../DuctFan/DuctFan.csproj"
+    },
+    "DuctFittings/1.0.0": {
+      "type": "project",
+      "path": "../DuctFittings/DuctFittings.csproj",
+      "msbuildProject": "../DuctFittings/DuctFittings.csproj"
+    },
+    "DuctInsolation/1.0.0": {
+      "type": "project",
+      "path": "../DuctInsolation/DuctInsolation.csproj",
+      "msbuildProject": "../DuctInsolation/DuctInsolation.csproj"
+    },
     "KapibaraCore/1.0.0": {
       "type": "project",
       "path": "../KapibaraCore/KapibaraCore.csproj",
       "msbuildProject": "../KapibaraCore/KapibaraCore.csproj"
+    },
+    "PipeInsulation/1.0.0": {
+      "type": "project",
+      "path": "../PipeInsulation/PipeInsulation.csproj",
+      "msbuildProject": "../PipeInsulation/PipeInsulation.csproj"
     },
     "Pipes/1.0.0": {
       "type": "project",
@@ -1152,6 +1409,12 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
+      "AirTerminal >= 1.0.0",
+      "Build >= 1.0.0",
+      "Duct >= 1.0.0",
+      "DuctFan >= 1.0.0",
+      "DuctFittings >= 1.0.0",
+      "DuctInsolation >= 1.0.0",
       "MaterialDesignColors >= 5.*",
       "MaterialDesignThemes >= 5.*",
       "Nice3point.Revit.Api.RevitAPI >= 2022.*-*",
@@ -1159,6 +1422,7 @@
       "Nice3point.Revit.Build.Tasks >= 2.*",
       "Nice3point.Revit.Extensions >= 2022.*-*",
       "Nice3point.Revit.Toolkit >= 2022.*-*",
+      "PipeInsulation >= 1.0.0",
       "Pipes >= 1.0.0",
       "PipesFittings >= 1.0.0",
       "SpaceHeater >= 1.0.0",
@@ -1191,6 +1455,27 @@
         "net48": {
           "targetAlias": "net48",
           "projectReferences": {
+            "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\AirTerminal.csproj": {
+              "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\AirTerminal.csproj"
+            },
+            "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj": {
+              "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj"
+            },
+            "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\DuctFan.csproj": {
+              "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\DuctFan.csproj"
+            },
+            "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\DuctFittings.csproj": {
+              "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\DuctFittings.csproj"
+            },
+            "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctInsolation\\DuctInsolation.csproj": {
+              "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctInsolation\\DuctInsolation.csproj"
+            },
+            "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Duct\\Duct.csproj": {
+              "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Duct\\Duct.csproj"
+            },
+            "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipeInsulation\\PipeInsulation.csproj": {
+              "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipeInsulation\\PipeInsulation.csproj"
+            },
             "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\PipesFittings.csproj": {
               "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\PipesFittings.csproj"
             },

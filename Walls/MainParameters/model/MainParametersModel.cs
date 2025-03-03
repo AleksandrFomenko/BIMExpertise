@@ -34,8 +34,8 @@ internal class MainParametersModel
     {
         var parameter = element.GetParameterByName(HeightParameter);
         if (parameter == null) return;
-        var parameterLength = element.get_Parameter(BuiltInParameter.WALL_USER_HEIGHT_PARAM);
-        parameter.SetParameterValue((parameterLength?.AsDouble() ?? 0) * 304.8);
+        var result = CalculateHeight(element);
+        parameter.SetParameterValue(result);
     }
 
     public void SetVolume(Element element)
@@ -74,7 +74,7 @@ internal class MainParametersModel
     {
         var parameter = element.GetParameterByName(AreaSideParameter);
         if (parameter == null) return;
-        var height = element.get_Parameter(BuiltInParameter.WALL_USER_HEIGHT_PARAM)?.AsDouble() * 304.8 ?? 0;
+        var height = CalculateHeight(element);
         var length = CalculateLength(element);
         var res = height * length/1000000;
         parameter.SetParameterValue(res);
@@ -85,11 +85,12 @@ internal class MainParametersModel
         
     }
 
-    private double CalculateLength(Element element)
+    private static double CalculateLength(Element element)
     {
         double maxLen = 0;
+        var flag1 = true;
         var solids = element.GetSolids();
-    
+
         foreach (var solid in solids)
         {
             foreach (Edge edge in solid.Edges)
@@ -98,22 +99,55 @@ internal class MainParametersModel
                 var tessellated = curve.Tessellate();
                 if (tessellated.Count < 2)
                     continue;
-            
+
                 var xyz1 = tessellated[0];
                 var xyz2 = tessellated[1];
                 if (xyz1 == null || xyz2 == null)
                     continue;
-                
-                // ReSharper disable once CompareOfFloatsByEqualityOperator
+
                 if (xyz1.Z == xyz2.Z)
                 {
-                    double lenCurve = curve.Length;
+                    flag1 = false;
+                    var lenCurve = curve.Length;
+                    if (lenCurve > maxLen)
+                        maxLen = lenCurve;
+                }
+            }
+
+            if (flag1)
+            {
+                foreach (Edge edge in solid.Edges)
+                {
+                    var curve = edge.AsCurve();
+                    var lenCurve = curve.Length;
                     if (lenCurve > maxLen)
                         maxLen = lenCurve;
                 }
             }
         }
-
         return maxLen * 304.8;
+    }
+
+    private static double CalculateHeight(Element element)
+    {
+        double minZ = 999999999;
+        double maxZ = -999999999;
+        
+        var solids = element.GetSolids();
+        foreach (var solid in solids)
+        {
+            foreach (Edge edge in solid.Edges)
+            {
+                var curve = edge.AsCurve();
+                var tessellated = curve.Tessellate();
+                foreach (var xyz in tessellated)
+                {
+                    if (xyz.Z > maxZ) maxZ = xyz.Z;
+                    if (xyz.Z < minZ) minZ = xyz.Z;
+                }
+            }
+        }
+
+        return (maxZ - minZ) * 304.8;
     }
 }

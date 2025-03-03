@@ -5,18 +5,51 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:viewModel="clr-namespace:Valve.ViewModels"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:wpfResources="clr-namespace:WpfResources;assembly=WpfResources"
+    xmlns:view="clr-namespace:Valve.MainParameters.View"
+    xmlns:view1="clr-namespace:Valve.AdditionalParameters.View"
     mc:Ignorable="d"
     d:DataContext="{d:DesignInstance viewModel:ValveViewModel}"
     ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen"
-    Title="Valve"
-    Height="450"
-    Width="800">
-    <Grid>
-        <TextBlock
-            Text="Valve"
-            FontSize="60"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center" />
-    </Grid>
+    Background="Transparent"
+    AllowsTransparency="True"
+    WindowStyle="None"
+    Height="600"
+    Width="1200">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme PrimaryColor="BlueGrey" SecondaryColor="LightBlue">
+                    <materialDesign:BundledTheme.BaseTheme>Light</materialDesign:BundledTheme.BaseTheme>
+                </materialDesign:BundledTheme>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" /> 
+                <ResourceDictionary Source="pack://application:,,,/WpfResources;component/Themes/Generic.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Border Style="{StaticResource BorderMainWindow}">
+        <Grid Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+            <wpfResources:TopPanel Grid.Row="0" Heading="Pipe`s valve"/>
+            <TabControl Grid.Row="1"
+                        materialDesign:ColorZoneAssist.Background="{StaticResource CharcoalGrayBrush}"
+                        materialDesign:ColorZoneAssist.Foreground="{DynamicResource TextBrush}"
+                        materialDesign:ColorZoneAssist.Mode="Custom"
+                        Style="{StaticResource MaterialDesignFilledTabControl}"
+                        SelectedItem="{Binding SelectedTab}">
+                <TabItem Header="Основные параметры">
+                    <view:MainParametersView DataContext="{Binding MainParametersViewModel}"/>
+                </TabItem>
+                <TabItem Header="Дополнительные параметры">
+                    <view1:AdditionalParametersView DataContext="{Binding AdditionalParametersViewModel}"/>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </Border>
 </Window>
