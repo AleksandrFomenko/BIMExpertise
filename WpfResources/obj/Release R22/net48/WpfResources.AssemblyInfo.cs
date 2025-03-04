@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfResources")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release R22")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1ba9732392bc500aa41592e7e389c630bf5e8b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a59daa5b1adaae854be441e221bb15108480ade")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfResources")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfResources")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.0")]
