@@ -88,9 +88,9 @@ namespace Valve.MainParameters.Model
             var widthRes = unionBox.Max.Y - unionBox.Min.Y;
             var heightRes = unionBox.Max.Z - unionBox.Min.Z;
     
-            if (len) lengthParameter?.SetParameterValue(lenghtRes * 304.8);
-            if (width) widthParameter?.SetParameterValue(widthRes * 304.8);
-            if (height) parameterHeight?.SetParameterValue(heightRes * 304.8);
+            if (len) lengthParameter?.SetParameterValue(Math.Round(lenghtRes * 304.8));
+            if (width) widthParameter?.SetParameterValue(Math.Round(widthRes * 304.8));
+            if (height) parameterHeight?.SetParameterValue(Math.Round(heightRes * 304.8));
             //var boxSolid = CreateSolidFromBoundingBox(unionBox);
            // CreateDirectShapeFromSolid(element.Document, boxSolid);
         }
@@ -140,7 +140,7 @@ namespace Valve.MainParameters.Model
     
         private BoundingBoxXYZ GetUnionBoundingBox(IEnumerable<Solid> solids, Transform unrotateTransform)
         {
-            bool isFirstBoundingBox = true;
+            var isFirstBoundingBox = true;
             XYZ unionMin = null;
             XYZ unionMax = null;
 
@@ -151,8 +151,8 @@ namespace Valve.MainParameters.Model
                 if (bbox == null) 
                     continue;
                 
-                XYZ worldMin = bbox.Transform.OfPoint(bbox.Min);
-                XYZ worldMax = bbox.Transform.OfPoint(bbox.Max);
+                var worldMin = bbox.Transform.OfPoint(bbox.Min);
+                var worldMax = bbox.Transform.OfPoint(bbox.Max);
 
                 if (isFirstBoundingBox)
                 {
@@ -193,8 +193,8 @@ namespace Valve.MainParameters.Model
         
         public Solid CreateSolidFromBoundingBox(BoundingBoxXYZ bbox)
         {
-            XYZ worldMin = bbox.Transform.OfPoint(bbox.Min);
-            XYZ worldMax = bbox.Transform.OfPoint(bbox.Max);
+            var worldMin = bbox.Transform.OfPoint(bbox.Min);
+            var worldMax = bbox.Transform.OfPoint(bbox.Max);
 
             var pts = new List<XYZ>
             {

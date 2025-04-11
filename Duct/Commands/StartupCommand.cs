@@ -1,5 +1,4 @@
-﻿using System.Runtime.Remoting.Contexts;
-using Autodesk.Revit.Attributes;
+﻿using Autodesk.Revit.Attributes;
 using Duct.ViewModels;
 using Duct.Views;
 using Nice3point.Revit.Toolkit.External;

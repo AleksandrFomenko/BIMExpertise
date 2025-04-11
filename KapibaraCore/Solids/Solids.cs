@@ -35,10 +35,11 @@ public static class Solids
 
     private static IEnumerable<Solid> ProcessGeometryObject(GeometryObject geomObj)
     {
-        if (geomObj is Solid solid && solid.Volume > 0)
+        if (geomObj is Solid solid && IsSolidValidForVolume(solid))
         {
             yield return solid;
         }
+
 
         if (geomObj is GeometryInstance geomInstance)
         {
@@ -93,6 +94,21 @@ public static class Solids
             }
         }
         return null;
+    }
+    private static bool IsSolidValidForVolume(Solid solid)
+    {
+        if (solid == null)
+            return false;
+        
+        try
+        {
+            var vol = solid.Volume;
+            return vol > 0;
+        }
+        catch
+        {
+            return false;
+        }
     }
     
 }

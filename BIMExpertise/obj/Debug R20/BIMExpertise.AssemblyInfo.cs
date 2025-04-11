@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BIMExpertise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug R20")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5926b07133c5b7966d6919ce28b666d7b2118c38")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5367842fed86b8e68fa2390f074143809e2e0fbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("BIMExpertise")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BIMExpertise")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

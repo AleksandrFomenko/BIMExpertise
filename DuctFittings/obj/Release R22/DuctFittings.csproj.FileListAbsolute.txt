@@ -22,3 +22,17 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Release R22\DuctF
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Release R22\DuctFittings.csproj.CoreCompileInputs.cache
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Release R22\DuctFitt.F8EDC7DE.Up2Date
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Release R22\DuctFittings.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\Wpf.Ui.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\Wpf.Ui.Abstractions.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\MaterialDesignColors.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\MaterialDesignThemes.Wpf.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\Microsoft.Xaml.Behaviors.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\SharpVectors.Converters.Wpf.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\SharpVectors.Core.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\SharpVectors.Css.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\SharpVectors.Dom.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\SharpVectors.Model.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\SharpVectors.Rendering.Wpf.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\SharpVectors.Runtime.Wpf.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\WpfResourcesBimExpertise.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Release R22\WpfResourcesBimExpertise.pdb

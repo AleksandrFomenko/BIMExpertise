@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Windows;
 using System.Windows.Threading;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.DB.Plumbing;
 using Autodesk.Revit.UI;
+using KapibaraCore.Elements;
 using KapibaraCore.Parameters;
+using KapibaraCore.Solids;
 
 namespace Pipes.MainParameters.model
 {
@@ -67,6 +70,7 @@ namespace Pipes.MainParameters.model
 
         private double GetMassType(Element pipe)
         {
+            var adskName = "ADSK_Наименование";
             if (pipe is not Pipe)
                 
                 return 0;
@@ -93,7 +97,36 @@ namespace Pipes.MainParameters.model
                         { 125, 15.04 },
                         { 150, 17.81 }
                     }
-                }, { "электросварн", new Dictionary<double, double>
+                }, { "стальная оцинк", new Dictionary<double, double>
+                    { 
+                        { 10, 0.98 },
+                        { 15, 1.16 },
+                        { 20, 1.66 },
+                        { 25, 2.39 },
+                        { 32, 3.09 },
+                        { 40, 3.84 },
+                        { 50, 4.88 },
+                        { 65, 7.05 },
+                        { 80, 8.34 },
+                        { 100, 12.15 },
+                        { 125, 15.04 },
+                        { 150, 17.81 }
+                    }
+                },
+                { "электросварн", new Dictionary<double, double>
+                    {
+                        { 50, 4.61 },
+                        { 65, 6.25 },
+                        { 80, 7.38 },
+                        { 100, 10.26 },
+                        { 125, 11.178 },
+                        { 150, 17.146 },
+                        { 200, 31.517 },
+                        { 250, 39.508 },
+                        { 300, 54.897 }
+                    }
+                },
+                 { "прямошовная", new Dictionary<double, double>
                     {
                         { 50, 4.61 },
                         { 65, 6.25 },
@@ -115,6 +148,26 @@ namespace Pipes.MainParameters.model
                         { 40, 0.59 },
                     }
                 },
+                { "полипропилен", new Dictionary<double, double>
+                    {
+                        { 20, 0.110 },
+                        { 25, 0.159 },
+                        { 32, 0.256 },
+                        { 40, 0.398 },
+                        { 50, 0.625 },
+                    }
+                },
+                { "медная", new Dictionary<double, double>
+                    {
+                        { 6.35, 0.150 },
+                        { 9.52, 0.239 },
+                        { 12.7, 0.328 },
+                        { 15.88, 0.417 },
+                        { 19.05, 0.506 },
+                        { 22.22, 0.595 },
+                        { 25.4, 0.674 },
+                    }
+                },
                 { "sml", new Dictionary<double, double>
                     {
                         { 50, 5.2 },
@@ -123,7 +176,7 @@ namespace Pipes.MainParameters.model
                         { 150, 14 }
                     }
                 },
-                { "auqatherm_green", new Dictionary<double, double>
+                { "aquatherm", new Dictionary<double, double>
                     {
                         { 15, 0.142 },
                         { 20, 0.158 },
@@ -151,7 +204,7 @@ namespace Pipes.MainParameters.model
 
             
             var typeElement = doc.GetElement(pipe.GetTypeId());
-            var parameter = pipe.GetParameterByName(DiamParameter)?.AsValueString()
+            var parameter = pipe.GetParameterByName(adskName)?.AsValueString()
                             ?? typeElement?.Name
                             ?? (typeElement as PipeType)?.FamilyName;
 
@@ -228,7 +281,8 @@ namespace Pipes.MainParameters.model
             var parameter = elem.GetParameterByName(MassPipe);
             if (parameter == null) return;
             var result = GetMass(elem);
-            parameter.SetParameterValue(result);
+            parameter.SetParameterValue(Math.Round(result));
+            
         }
     }
 }

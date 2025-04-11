@@ -50,8 +50,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\BimExpertiseCore\BimExpertiseCore.csproj" />
       <ProjectReference Include="..\KapibaraCore\KapibaraCore.csproj" />
-      <ProjectReference Include="..\WpfResources\WpfResources.csproj" />
+      <ProjectReference Include="..\WpfResourcesBimExpertise\WpfResourcesBimExpertise.csproj" />
     </ItemGroup>
 
 </Project>

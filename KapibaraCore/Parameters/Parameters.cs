@@ -1,6 +1,4 @@
-﻿using Autodesk.Revit.DB;
-
-namespace KapibaraCore.Parameters;
+﻿namespace KapibaraCore.Parameters;
 
 /// <summary>
 /// Статический класс для получения параметров.

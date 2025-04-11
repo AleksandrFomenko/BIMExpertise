@@ -11,7 +11,7 @@
     WindowStartupLocation="CenterScreen"
     Title="DuctFan"
     Height="450"
-    Width="800">
+    Width="801">
     <Grid>
         <TextBlock
             Text="DuctFan"

@@ -97,29 +97,11 @@ internal partial class MainParametersViewModel : ObservableObject
             int batchSize = 50;
             for (int i = 0; i < batchSize && count < elements.Count; i++)
             {
-                if (IsLength)
-                {
-                    _model.SetLength(elements[count]);
-                }
-                if (IsHeight)
-                {
-                    _model.SetHeight(elements[count]);
-                }
+                _model.SetGeomParameters(elements[count], IsLength, IsThickness, IsHeight, IsAreaPlan, IsAreaSide);
+                
                 if (IsVolume)
                 {
                     _model.SetVolume(elements[count]);
-                }
-                if (IsThickness)
-                {
-                    _model.SetThickness(elements[count]);
-                }
-                if (IsAreaPlan)
-                {
-                    _model.SetAreaPlan(elements[count]);
-                }
-                if (IsAreaSide)
-                {
-                    _model.SetAreaSide(elements[count]);
                 }
                 if (IsMass)
                 {

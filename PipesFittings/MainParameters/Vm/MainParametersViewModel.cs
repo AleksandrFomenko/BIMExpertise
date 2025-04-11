@@ -1,5 +1,7 @@
-﻿using System.Windows;
+﻿using System.Diagnostics;
+using System.Windows;
 using System.Windows.Threading;
+using BimExpertiseCore;
 using KapibaraCore.Parameters;
 using PipesFittings.MainParameters.Model;
 
@@ -34,8 +36,6 @@ public partial class MainParametersViewModel : ObservableObject
     partial void OnDiamParameterChanged(string value) => _model.DiamParameter = value;
     partial void OnHeightParameterChanged(string value) => _model.HeightParameter= value;
     partial void OnLengthParameterChanged(string value) => _model.LengthParameter = value;
-    partial void OnMassParameterChanged(string value) => _model.MassParameter = value;
-
     
     public MainParametersViewModel(MainParametersModel model, Document doc, Dispatcher dispatcher)
     {
@@ -101,7 +101,8 @@ public partial class MainParametersViewModel : ObservableObject
                 }
                 if (IsMass)
                 {
-                    _model.SetMass(elements[count]);
+                    var par = elements[count].GetParameterByName(MassParameter);
+                    elements[count].SetMass(par);
                 }
 
                 if (IsHeight)

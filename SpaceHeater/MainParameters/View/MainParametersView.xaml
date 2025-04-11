@@ -1,0 +1,182 @@
+﻿<UserControl x:Class="SpaceHeater.MainParameters.View.MainParametersView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:SpaceHeater.MainParameters.View"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300">
+<UserControl.Resources>
+        <ResourceDictionary>
+            <Style TargetType="TextBlock" x:Key="MyTextBlock">
+                <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="HorizontalAlignment" Value="Left" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+                <Setter Property="Margin" Value="5" />
+            </Style>
+            <Style TargetType="ComboBox" x:Key="MyComboBox" BasedOn="{StaticResource MaterialDesignComboBox}">
+                <Setter Property="Foreground" Value="{StaticResource TextBrush}" />
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="Margin" Value="200, 0,10,0" />
+            </Style>
+            <Style TargetType="ToggleButton" BasedOn="{StaticResource MaterialDesignSwitchToggleButton}" x:Key="MyToggleButton">
+                <Setter Property="Margin" Value="10,0,0,0" />
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+            </Style>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme PrimaryColor="BlueGrey" SecondaryColor="LightBlue">
+                    <materialDesign:BundledTheme.BaseTheme>Light</materialDesign:BundledTheme.BaseTheme>
+                </materialDesign:BundledTheme>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" /> 
+                <ResourceDictionary Source="pack://application:,,,/WpfResourcesBimExpertise;component/Themes/Generic.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="0" Style="{StaticResource InputBorder}" Margin="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Style="{StaticResource MyTextBlock}" Text="Диапозон выбора"/>
+                    <ComboBox Grid.Row="1"
+                              Margin="5"
+                              VerticalAlignment="Center"
+                              Style="{StaticResource MaterialDesignComboBox}"
+                              ItemsSource="{Binding Options1}"
+                              SelectedItem="{Binding Option1, Mode=TwoWay}"
+                              Foreground="{StaticResource LineBrush}"
+                              DisplayMemberPath="Name"/>
+                </Grid>
+            </Border>
+            <Border Grid.Column="1" Style="{StaticResource InputBorder}" Margin="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Style="{StaticResource MyTextBlock}" Text="Способ отбора"/>
+                    <ComboBox Grid.Row="1"
+                              Margin="5"
+                              VerticalAlignment="Center"
+                              HorizontalAlignment="Left"
+                              Width="{Binding Option2.WidthComboBox}"
+                              Style="{StaticResource MaterialDesignComboBox}"
+                              ItemsSource="{Binding Options2}"
+                              SelectedItem="{Binding Option2, Mode=TwoWay}"
+                              Foreground="{StaticResource LineBrush}"
+                              DisplayMemberPath="Name"/>
+                </Grid>
+            </Border>
+        </Grid>
+        <Border Grid.Row="1" Style="{StaticResource InputBorder}" Margin="5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Style="{StaticResource MyTextBlock}"
+                           Text = "Геометрические параметры"
+                           Margin="20,0,0,0"/>
+                
+                <ToggleButton Grid.Row="1" Grid.Column="0"
+                              IsChecked="{Binding IsWidth, Mode=TwoWay}" 
+                              Style="{StaticResource MyToggleButton}" />
+                <TextBlock Grid.Row="1" Grid.Column="0"
+                           Style="{StaticResource MyTextBlock}" Text = "Ширина"
+                           Margin="70, 0,0,0"/>
+                <ComboBox  Grid.Row="1" Grid.Column="0"
+                           Style="{StaticResource MyComboBox}"
+                           ItemsSource="{Binding GeomParameters}"
+                           SelectedItem="{Binding DiamParameter, Mode=TwoWay}"/>
+                
+                <ToggleButton Grid.Row="2" Grid.Column="0"
+                              IsChecked="{Binding IsHeight, Mode=TwoWay}" 
+                              Style="{StaticResource MyToggleButton}" />
+                <TextBlock Grid.Row="2" Grid.Column="0"
+                           Style="{StaticResource MyTextBlock}"
+                           Text = "Высота"
+                           Margin="70, 0,0,0"/>
+                <ComboBox  Grid.Row="2" Grid.Column="0"
+                           Style="{StaticResource MyComboBox}"
+                           ItemsSource="{Binding GeomParameters}"
+                           SelectedItem="{Binding HeightParameter, Mode=TwoWay}"/>
+                
+                
+                <ToggleButton Grid.Row="1" Grid.Column="1"
+                              IsChecked="{Binding IsLength, Mode=TwoWay}" 
+                              Style="{StaticResource MyToggleButton}" />
+                <TextBlock Grid.Row="1" Grid.Column="1"
+                           Style="{StaticResource MyTextBlock}"
+                           Text = "Длина"
+                           Margin="70, 0,0,0"/>
+                <ComboBox  Grid.Row="1" Grid.Column="1"
+                           Margin="125,0,20,0"
+                           Style="{StaticResource MyComboBox}"
+                           ItemsSource="{Binding GeomParameters}"
+                           SelectedItem="{Binding LengthParameter, Mode=TwoWay}"/>
+                
+                <ToggleButton Grid.Row="2" Grid.Column="1"
+                              IsChecked="{Binding IsMass, Mode=TwoWay}" 
+                              Style="{StaticResource MyToggleButton}" />
+                <TextBlock Grid.Row="2" Grid.Column="1"
+                           Style="{StaticResource MyTextBlock}"
+                           Text = "Масса"
+                           Margin="70, 0,0,0"/>
+                <ComboBox  Grid.Row="2" Grid.Column="1"
+                           Margin="125,0,20,0"
+                           Style="{StaticResource MyComboBox}"
+                           ItemsSource="{Binding GeomParameters}"
+                           SelectedItem="{Binding MassParameter, Mode=TwoWay}"/>
+                
+            </Grid>
+        </Border>
+        
+        <Border Grid.Row="2" Style="{StaticResource InputBorder}" Margin="5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+            </Grid>
+        </Border>
+        <ProgressBar Grid.Row="3"
+                     x:Name="DeterminateCircularProgress"
+                     Style="{StaticResource MaterialDesignCircularProgressBar}"
+            Maximum="{Binding ProgressMaximum}"
+            Value="{Binding ProgressValue}"
+            IsIndeterminate="False" />
+        <Button Grid.Row="4"
+                Style="{StaticResource MaterialDesignRaisedDarkButton}"
+                Background="{StaticResource LineBrush}"
+                VerticalAlignment="Center"
+                IsEnabled="{Binding ButtonEnable}"
+                HorizontalAlignment="Center"
+                Command="{Binding ExecuteCommand}">
+            <TextBlock
+                Text="Execute" />
+        </Button>
+    </Grid>
+</UserControl>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)nice3point.revit.build.tasks\2.0.2\build\Nice3point.Revit.Build.Tasks.targets" Condition="Exists('$(NuGetPackageRoot)nice3point.revit.build.tasks\2.0.2\build\Nice3point.Revit.Build.Tasks.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.web.webview2\1.0.3230-prerelease\buildTransitive\Microsoft.Web.WebView2.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.web.webview2\1.0.3230-prerelease\buildTransitive\Microsoft.Web.WebView2.targets')" />
+    <Import Project="$(NuGetPackageRoot)materialdesignthemes\5.2.1\build\MaterialDesignThemes.targets" Condition="Exists('$(NuGetPackageRoot)materialdesignthemes\5.2.1\build\MaterialDesignThemes.targets')" />
+    <Import Project="$(NuGetPackageRoot)communitytoolkit.mvvm\8.4.0\buildTransitive\CommunityToolkit.Mvvm.targets" Condition="Exists('$(NuGetPackageRoot)communitytoolkit.mvvm\8.4.0\buildTransitive\CommunityToolkit.Mvvm.targets')" />
+  </ImportGroup>
+</Project>

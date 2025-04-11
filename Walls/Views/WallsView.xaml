@@ -5,7 +5,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:viewModel="clr-namespace:Walls.ViewModels"
-    xmlns:wpfResources="clr-namespace:WpfResources;assembly=WpfResources"
+    xmlns:wpfResources="clr-namespace:WpfResourcesBimExpertise;assembly=WpfResourcesBimExpertise"
     xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
     xmlns:vm1="clr-namespace:Walls.AdditionalParameters.vm"
     xmlns:view="clr-namespace:Walls.MainParameters.view"
@@ -25,7 +25,7 @@
                     <materialDesign:BundledTheme.BaseTheme>Light</materialDesign:BundledTheme.BaseTheme>
                 </materialDesign:BundledTheme>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" /> 
-                <ResourceDictionary Source="pack://application:,,,/WpfResources;component/Themes/Generic.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/WpfResourcesBimExpertise;component/Themes/Generic.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
@@ -36,7 +36,7 @@
                 <RowDefinition Height="*" />
 
             </Grid.RowDefinitions>
-            <wpfResources:TopPanel Grid.Row="0" Heading="Walls"/>
+            <wpfResources:TopPanel Grid.Row="0" Heading="Pipes"/>
             <TabControl Grid.Row="1"
                         materialDesign:ColorZoneAssist.Background="{StaticResource CharcoalGrayBrush}"
                         materialDesign:ColorZoneAssist.Foreground="{DynamicResource TextBrush}"

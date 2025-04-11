@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+n9np9qkHbk=",
+  "dgSpecHash": "fFltCEev6ek=",
   "success": true,
   "projectFilePath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\Pipes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512",
-    "C:\\Users\\FomenkoAA\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\jetbrains.annotations\\2024.3.0\\jetbrains.annotations.2024.3.0.nupkg.sha512",
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\materialdesigncolors\\5.2.1\\materialdesigncolors.5.2.1.nupkg.sha512",
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\materialdesignthemes\\5.2.1\\materialdesignthemes.5.2.1.nupkg.sha512",
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
@@ -14,15 +14,17 @@
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\nice3point.revit.api.revitapi\\2022.1.21\\nice3point.revit.api.revitapi.2022.1.21.nupkg.sha512",
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\nice3point.revit.api.revitapiui\\2022.1.21\\nice3point.revit.api.revitapiui.2022.1.21.nupkg.sha512",
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\nice3point.revit.build.tasks\\2.0.2\\nice3point.revit.build.tasks.2.0.2.nupkg.sha512",
-    "C:\\Users\\FomenkoAA\\.nuget\\packages\\nice3point.revit.extensions\\2022.3.0\\nice3point.revit.extensions.2022.3.0.nupkg.sha512",
-    "C:\\Users\\FomenkoAA\\.nuget\\packages\\nice3point.revit.toolkit\\2022.2.3\\nice3point.revit.toolkit.2022.2.3.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\nice3point.revit.extensions\\2022.4.1\\nice3point.revit.extensions.2022.4.1.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\nice3point.revit.toolkit\\2022.3.0\\nice3point.revit.toolkit.2022.3.0.nupkg.sha512",
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\sharpvectors.wpf\\1.8.4.2\\sharpvectors.wpf.1.8.4.2.nupkg.sha512",
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\system.buffers\\4.6.0\\system.buffers.4.6.0.nupkg.sha512",
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\system.memory\\4.6.0\\system.memory.4.6.0.nupkg.sha512",
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\system.numerics.vectors\\4.6.0\\system.numerics.vectors.4.6.0.nupkg.sha512",
     "C:\\Users\\FomenkoAA\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.1.0\\system.runtime.compilerservices.unsafe.6.1.0.nupkg.sha512",
-    "C:\\Users\\FomenkoAA\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\wpf-ui\\4.0.2\\wpf-ui.4.0.2.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\wpf-ui.abstractions\\4.0.2\\wpf-ui.abstractions.4.0.2.nupkg.sha512"
   ],
   "logs": []
 }

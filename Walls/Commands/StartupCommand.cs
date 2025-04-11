@@ -11,9 +11,10 @@ public class StartupCommand : ExternalCommand
 {
     public override void Execute()
     {
-        var doc = Context.ActiveDocument;
+        var doc = Context.ActiveDocument; 
         var view = new WallsView();
-        var viewModel = new WallsViewModel(doc, view.Dispatcher);
+
+        var viewModel = new WallsViewModel(doc, view.Dispatcher); 
         view.DataContext = viewModel;
         view.ShowDialog();
     }

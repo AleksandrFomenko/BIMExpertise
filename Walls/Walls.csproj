@@ -37,22 +37,27 @@
     <ItemGroup>
         <PackageReference Include="MaterialDesignColors" Version="5.*" />
         <PackageReference Include="MaterialDesignThemes" Version="5.*" />
+        <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3230-prerelease" />
         <PackageReference Include="Nice3point.Revit.Build.Tasks" Version="2.*" />
         <PackageReference Include="Nice3point.Revit.Toolkit" Version="$(RevitVersion).*" />
         <PackageReference Include="Nice3point.Revit.Extensions" Version="$(RevitVersion).*" />
         <PackageReference Include="Nice3point.Revit.Api.RevitAPI" Version="$(RevitVersion).*" />
         <PackageReference Include="Nice3point.Revit.Api.RevitAPIUI" Version="$(RevitVersion).*" />
         <PackageReference Include="CommunityToolkit.Mvvm" Version="8.*" />
+        <PackageReference Include="WPF-UI" Version="4.0.2" />
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\External\wpfui\src\Wpf.Ui\Wpf.Ui.csproj" />
       <ProjectReference Include="..\KapibaraCore\KapibaraCore.csproj" />
-      <ProjectReference Include="..\WpfResources\WpfResources.csproj" />
+      <ProjectReference Include="..\WpfResourcesBimExpertise\WpfResourcesBimExpertise.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="AdditionalParameters\model\" />
     </ItemGroup>
+
+
 
     <ItemGroup>
       <Page Update="MainParameters\view\MainParametersView.xaml">

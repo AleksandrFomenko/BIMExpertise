@@ -10,11 +10,11 @@ none
 false
 ;DEBUG;TRACE;DEBUG_R22;NETFRAMEWORK;NET48;
 
-1-1169693222
+31294353399
 
-8-958073656
-37507647767
-Views\ValveView.xaml;
+131523531560
+49-1863038251
+AdditionalParameters\View\AdditionalParametersView.xaml;MainParameters\View\MainParametersView.xaml;Views\ValveView.xaml;
 
-False
+True
 

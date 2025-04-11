@@ -14,8 +14,10 @@ public class StartupCommand : ExternalCommand
 {
     public override void Execute()
     {
-        var viewModel = new SpaceHeaterViewModel();
-        var view = new SpaceHeaterView(viewModel);
+        var doc = Context.ActiveDocument;
+        var view = new SpaceHeaterView();
+        var viewModel = new SpaceHeaterViewModel(doc,view.Dispatcher);
+        view.DataContext = viewModel;
         view.ShowDialog();
     }
 }

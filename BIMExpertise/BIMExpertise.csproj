@@ -34,6 +34,13 @@
         <RevitVersion>2025</RevitVersion>
         <TargetFramework>net6.0</TargetFramework>
     </PropertyGroup>
+    <PropertyGroup Condition="$(Configuration.Contains('Release'))">
+        <IsRepackable>true</IsRepackable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="$(Configuration.Contains('Release'))">
+        <IsRepackable>true</IsRepackable>
+    </PropertyGroup>
 
     <PropertyGroup>
         <StartAction>Program</StartAction>

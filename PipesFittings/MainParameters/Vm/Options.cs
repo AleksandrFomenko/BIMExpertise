@@ -20,7 +20,6 @@ public partial class Options2 : ObservableObject
     
     [ObservableProperty]
     private GridLength _widthComboBox;
-    
     public Options2(string name, GridLength widthComboBox)
     {
         Name = name;

@@ -10,11 +10,11 @@ none
 false
 ;RELEASE;TRACE;RELEASE_R22;NETFRAMEWORK;NET48;
 
-140966779
+3-226432592
 
-8-164875386
-34-619076343
-Views\DuctView.xaml;
+14-916948556
+47-1227926397
+AdditionalParameters\view\AdditionalParametersView.xaml;MainParameters\view\MainParametersView.xaml;Views\DuctView.xaml;
 
-False
+True
 

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DuctFittings")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug R22")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1ba9732392bc500aa41592e7e389c630bf5e8b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5367842fed86b8e68fa2390f074143809e2e0fbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("DuctFittings")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DuctFittings")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

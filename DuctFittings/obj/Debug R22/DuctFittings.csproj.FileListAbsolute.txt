@@ -11,10 +11,11 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Debug R22\System.
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Debug R22\System.Numerics.Vectors.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Debug R22\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Debug R22\System.Threading.Tasks.Extensions.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Debug R22\Wpf.Ui.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Debug R22\Wpf.Ui.Abstractions.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.csproj.AssemblyReference.cache
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\Views\DuctFittingsView.g.cs
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings_MarkupCompile.cache
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings_MarkupCompile.lref
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\Views\DuctFittingsView.baml
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.g.resources
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.GeneratedMSBuildEditorConfig.editorconfig
@@ -25,3 +26,8 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\DuctFit
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\DuctFitt.F8EDC7DE.Up2Date
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.pdb
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\Views\MainParameters.g.cs
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings_MarkupCompile.lref
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\Views\MainParameters.baml
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Debug R22\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Debug R22\Microsoft.Extensions.DependencyInjection.Abstractions.dll

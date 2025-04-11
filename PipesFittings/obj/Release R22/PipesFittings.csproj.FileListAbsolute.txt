@@ -41,3 +41,4 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\PipesFittings\obj\Release R22\Main
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\PipesFittings\obj\Release R22\GeneratedInternalTypeHelper.g.cs
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\PipesFittings\obj\Release R22\AdditionalParameters\View\AdditionalParametersView.baml
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\PipesFittings\obj\Release R22\MainParameters\View\MainParametersView.baml
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\PipesFittings\bin\Release R22\BimExpertiseCore.dll

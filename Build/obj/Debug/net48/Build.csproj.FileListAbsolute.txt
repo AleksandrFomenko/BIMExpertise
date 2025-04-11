@@ -1,9 +1,3 @@
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.csproj.AssemblyReference.cache
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.AssemblyInfoInputs.cache
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.AssemblyInfo.cs
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.csproj.CoreCompileInputs.cache
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.sourcelink.json
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\bin\Debug\net48\Build.exe.config
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\bin\Debug\net48\Build.exe
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\bin\Debug\net48\Build.pdb
@@ -12,6 +6,12 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\bin\Debug\net48\Microsoft.De
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\bin\Debug\net48\WixSharp.Msi.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\bin\Debug\net48\WixSharp.UI.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\bin\Debug\net48\WixSharp.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.csproj.AssemblyReference.cache
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.AssemblyInfoInputs.cache
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.AssemblyInfo.cs
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.csproj.CoreCompileInputs.cache
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.sourcelink.json
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.csproj.Up2Date
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.exe
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.pdb

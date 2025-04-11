@@ -1,22 +1,45 @@
-﻿<Window
+﻿<ui:FluentWindow
     x:Class="DuctFittings.Views.DuctFittingsView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:viewModel="clr-namespace:DuctFittings.ViewModels"
+    xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+    xmlns:views="clr-namespace:DuctFittings.Views"
     mc:Ignorable="d"
-    d:DataContext="{d:DesignInstance viewModel:DuctFittingsViewModel}"
-    ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen"
-    Title="DuctFittings"
-    Height="450"
-    Width="800">
+    ExtendsContentIntoTitleBar="True"
+    d:DesignHeight="300"
+    d:DesignWidth="200"
+    MinWidth="812"
+    MinHeight="456"
+    Width="950"
+    Height="534">
+    
     <Grid>
-        <TextBlock
-            Text="DuctFittings"
-            FontSize="60"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center" />
+        <ui:TitleBar 
+            Title="RevitLookup" 
+            Margin="42,0,0,0"
+            VerticalAlignment="Top"/>
+        
+        <ui:NavigationView
+            x:Name="RootNavigation"
+            Padding="42,0,42,0"
+            BreadcrumbBar="{Binding ElementName=BreadcrumbBar}"
+            FooterMenuItemsSource="{Binding FooterMenuItems, Mode=OneWay}"
+            FrameMargin="0"
+            IsBackButtonVisible="Visible"
+            IsPaneToggleVisible="True"
+            MenuItemsSource="{Binding MenuItems, Mode=OneWay}"
+            PaneDisplayMode="LeftFluent">
+            <ui:NavigationView.Header>
+                <ui:BreadcrumbBar x:Name="BreadcrumbBar" Margin="42,32,42,20" />
+            </ui:NavigationView.Header>
+            <ui:NavigationView.ContentOverlay>
+                <Grid>
+                    <ui:SnackbarPresenter x:Name="SnackbarPresenter" />
+                </Grid>
+            </ui:NavigationView.ContentOverlay>
+        </ui:NavigationView>
     </Grid>
-</Window>
+</ui:FluentWindow>

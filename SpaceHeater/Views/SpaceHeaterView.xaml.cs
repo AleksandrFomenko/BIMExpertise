@@ -4,9 +4,8 @@ namespace SpaceHeater.Views;
 
 public sealed partial class SpaceHeaterView
 {
-    public SpaceHeaterView(SpaceHeaterViewModel viewModel)
+    public SpaceHeaterView()
     {
-        DataContext = viewModel;
         InitializeComponent();
     }
 }

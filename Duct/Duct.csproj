@@ -35,6 +35,8 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="MaterialDesignColors" Version="5.*" />
+        <PackageReference Include="MaterialDesignThemes" Version="5.*" />
         <PackageReference Include="Nice3point.Revit.Build.Tasks" Version="2.*" />
         <PackageReference Include="Nice3point.Revit.Toolkit" Version="$(RevitVersion).*" />
         <PackageReference Include="Nice3point.Revit.Extensions" Version="$(RevitVersion).*" />
@@ -44,7 +46,12 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="Models" />
+        <Folder Include="AdditionalParameters\model\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\KapibaraCore\KapibaraCore.csproj" />
+      <ProjectReference Include="..\WpfResourcesBimExpertise\WpfResourcesBimExpertise.csproj" />
     </ItemGroup>
 
 </Project>

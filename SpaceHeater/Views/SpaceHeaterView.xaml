@@ -5,18 +5,51 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:viewModel="clr-namespace:SpaceHeater.ViewModels"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:wpfResources="clr-namespace:WpfResourcesBimExpertise;assembly=WpfResourcesBimExpertise"
+    xmlns:view="clr-namespace:SpaceHeater.MainParameters.View"
+    xmlns:view1="clr-namespace:SpaceHeater.AdditionalParameters.View"
     mc:Ignorable="d"
     d:DataContext="{d:DesignInstance viewModel:SpaceHeaterViewModel}"
     ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen"
-    Title="SpaceHeater"
-    Height="450"
-    Width="800">
-    <Grid>
-        <TextBlock
-            Text="SpaceHeater"
-            FontSize="60"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center" />
-    </Grid>
+    Background="Transparent"
+    AllowsTransparency="True"
+    WindowStyle="None"
+    Height="600"
+    Width="1200">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme PrimaryColor="BlueGrey" SecondaryColor="LightBlue">
+                    <materialDesign:BundledTheme.BaseTheme>Light</materialDesign:BundledTheme.BaseTheme>
+                </materialDesign:BundledTheme>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign3.Defaults.xaml" /> 
+                <ResourceDictionary Source="pack://application:,,,/WpfResourcesBimExpertise;component/Themes/Generic.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Border Style="{StaticResource BorderMainWindow}">
+        <Grid Background="Transparent">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="*" />
+
+            </Grid.RowDefinitions>
+            <wpfResources:TopPanel Grid.Row="0" Heading="Space heater"/>
+            <TabControl Grid.Row="1"
+                        materialDesign:ColorZoneAssist.Background="{StaticResource CharcoalGrayBrush}"
+                        materialDesign:ColorZoneAssist.Foreground="{DynamicResource TextBrush}"
+                        materialDesign:ColorZoneAssist.Mode="Custom"
+                        Style="{StaticResource MaterialDesignFilledTabControl}"
+                        SelectedItem="{Binding SelectedTab}">
+                <TabItem Header="Основные параметры">
+                    <view:MainParametersView DataContext="{Binding MainParametersVm}"/>
+                </TabItem>
+                <TabItem Header="Дополнительные параметры">
+                    <view1:AdditionalParametersView DataContext="{Binding AdditionalParametersVm}"/>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </Border>
 </Window>

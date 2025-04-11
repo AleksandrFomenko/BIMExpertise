@@ -10,11 +10,11 @@ none
 false
 ;DEBUG;TRACE;DEBUG_R22;NETFRAMEWORK;NET48;
 
-1-1480893106
+3983153515
 
-81774426989
-37507647767
-Views\SpaceHeaterView.xaml;
+15-317300217
+49-1863038251
+AdditionalParameters\View\AdditionalParametersView.xaml;MainParameters\View\MainParametersView.xaml;Views\SpaceHeaterView.xaml;
 
-False
+True
 
