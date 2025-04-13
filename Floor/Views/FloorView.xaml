@@ -12,41 +12,23 @@
     ResizeMode="NoResize"
     WindowStartupLocation="CenterScreen"
     Title="Floor"
+    ScrollViewer.CanContentScroll="False"
     Height="450"
-    Width="800">
-    <Window.Resources>
-        <ResourceDictionary>
-          <ResourceDictionary.MergedDictionaries>
-            <ui:ThemesDictionary Theme="Dark" />
-            <ui:ControlsDictionary />
-          </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-      </Window.Resources>
+    Width="800"
+    ExtendsContentIntoTitleBar="True">
+    
     <Grid>
         <ui:TitleBar Title="WPF UI"/>
-        <ui:NavigationView x:Name="RootNavigation" Grid.Row="1">
-            <ui:NavigationView.AutoSuggestBox>
-                <ui:AutoSuggestBox x:Name="AutoSuggestBox" PlaceholderText="Search">
-                    <ui:AutoSuggestBox.Icon>
-                        <ui:IconSourceElement>
-                            <ui:SymbolIconSource Symbol="Search24" />
-                        </ui:IconSourceElement>
-                    </ui:AutoSuggestBox.Icon>
-                </ui:AutoSuggestBox>
-            </ui:NavigationView.AutoSuggestBox>
-            <ui:NavigationView.Header>
-                <ui:BreadcrumbBar
-                    Margin="42,32,0,0"
-                    FontSize="28"
-                    FontWeight="DemiBold" />
-            </ui:NavigationView.Header>
+        
+        <ui:NavigationView>
             <ui:NavigationView.MenuItems>
-                <ui:NavigationViewItem Content="Dashboard" TargetPageType="{x:Type views:MainParametersPage}">
-                    <ui:NavigationViewItem.Icon>
-                        <ui:SymbolIcon Symbol="Home24" />
-                    </ui:NavigationViewItem.Icon>
-                </ui:NavigationViewItem>
+                <ui:NavigationViewItem
+                    Content="Dashboard"
+                    Icon="{ui:SymbolIcon Home24}"
+                    TargetPageType="{x:Type views:MainParametersPage}" />
             </ui:NavigationView.MenuItems>
         </ui:NavigationView>
+
+        
     </Grid>
 </ui:FluentWindow>

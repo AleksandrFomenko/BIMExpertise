@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj": {}
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Build\\Build.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Build\\Build.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Build\\Build.csproj",
         "projectName": "Build",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Build\\Build.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Build\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -43,6 +43,12 @@
         "net48": {
           "targetAlias": "net48",
           "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "WixSharp": {
               "target": "Package",
               "version": "[1.26.0, )"
@@ -52,7 +58,7 @@
               "version": "[1.26.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

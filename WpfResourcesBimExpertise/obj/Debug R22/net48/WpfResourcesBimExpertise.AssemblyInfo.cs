@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WpfResourcesBimExpertise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug R22")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5367842fed86b8e68fa2390f074143809e2e0fbe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29ab32429b01951d4a944b8eefab62f6f9be53ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("WpfResourcesBimExpertise")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WpfResourcesBimExpertise")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.0")]

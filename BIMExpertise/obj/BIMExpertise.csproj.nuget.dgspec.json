@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj": {}
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\AirTerminal.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\AirTerminal\\AirTerminal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\AirTerminal.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\AirTerminal\\AirTerminal.csproj",
         "projectName": "AirTerminal",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\AirTerminal.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\AirTerminal\\AirTerminal.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\AirTerminal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -45,7 +45,13 @@
           "dependencies": {
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.*, )"
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
             },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
@@ -68,21 +74,21 @@
               "version": "[2022.3.0-preview.3.250129, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BimExpertiseCore\\BimExpertiseCore.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BimExpertiseCore\\BimExpertiseCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BimExpertiseCore\\BimExpertiseCore.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BimExpertiseCore\\BimExpertiseCore.csproj",
         "projectName": "BimExpertiseCore",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BimExpertiseCore\\BimExpertiseCore.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BimExpertiseCore\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BimExpertiseCore\\BimExpertiseCore.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BimExpertiseCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -94,8 +100,8 @@
           "net48": {
             "targetAlias": "net48",
             "projectReferences": {
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
               }
             }
           }
@@ -117,7 +123,13 @@
           "dependencies": {
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.*, )"
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
             },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
@@ -140,21 +152,21 @@
               "version": "[2022.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj",
         "projectName": "BIMExpertise",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BIMExpertise\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BIMExpertise\\BIMExpertise.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BIMExpertise\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -166,41 +178,44 @@
           "net48": {
             "targetAlias": "net48",
             "projectReferences": {
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\AirTerminal.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\AirTerminal\\AirTerminal.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\AirTerminal\\AirTerminal.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\AirTerminal\\AirTerminal.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Build\\Build.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Build\\Build.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\DuctFan.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\DuctFan.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFan\\DuctFan.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFan\\DuctFan.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\DuctFittings.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\DuctFittings.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFittings\\DuctFittings.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFittings\\DuctFittings.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctInsolation\\DuctInsolation.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctInsolation\\DuctInsolation.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctInsolation\\DuctInsolation.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctInsolation\\DuctInsolation.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Duct\\Duct.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Duct\\Duct.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Duct\\Duct.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Duct\\Duct.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipeInsulation\\PipeInsulation.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipeInsulation\\PipeInsulation.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Floor\\Floor.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Floor\\Floor.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\PipesFittings.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\PipesFittings.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\PipeInsulation\\PipeInsulation.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\PipeInsulation\\PipeInsulation.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\Pipes.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\Pipes.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\PipesFittings\\PipesFittings.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\PipesFittings\\PipesFittings.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Pipes\\Pipes.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Pipes\\Pipes.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Valve\\Valve.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Valve\\Valve.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Walls\\Walls.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Walls\\Walls.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Valve\\Valve.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Valve\\Valve.csproj"
+              },
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Walls\\Walls.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Walls\\Walls.csproj"
               }
             }
           }
@@ -228,6 +243,12 @@
               "target": "Package",
               "version": "[5.*, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
               "version": "[2022.*-*, )"
@@ -238,7 +259,7 @@
             },
             "Nice3point.Revit.Build.Tasks": {
               "target": "Package",
-              "version": "[2.*, )"
+              "version": "[3.*, )"
             },
             "Nice3point.Revit.Extensions": {
               "target": "Package",
@@ -249,21 +270,21 @@
               "version": "[2022.*-*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Build\\Build.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Build\\Build.csproj",
         "projectName": "Build",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Build\\Build.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Build\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -292,6 +313,12 @@
         "net48": {
           "targetAlias": "net48",
           "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "WixSharp": {
               "target": "Package",
               "version": "[1.26.0, )"
@@ -301,7 +328,7 @@
               "version": "[1.26.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -310,505 +337,17 @@
         }
       }
     },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\DuctFan.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFan\\DuctFan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\DuctFan.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFan\\DuctFan.csproj",
         "projectName": "DuctFan",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\DuctFan.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFan\\DuctFan.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net48"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net48": {
-            "targetAlias": "net48",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net48": {
-          "targetAlias": "net48",
-          "dependencies": {
-            "CommunityToolkit.Mvvm": {
-              "target": "Package",
-              "version": "[8.*, )"
-            },
-            "Nice3point.Revit.Api.RevitAPI": {
-              "target": "Package",
-              "version": "[2022.1.21, )"
-            },
-            "Nice3point.Revit.Api.RevitAPIUI": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            },
-            "Nice3point.Revit.Build.Tasks": {
-              "target": "Package",
-              "version": "[2.*, )"
-            },
-            "Nice3point.Revit.Extensions": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            },
-            "Nice3point.Revit.Toolkit": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\DuctFittings.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\DuctFittings.csproj",
-        "projectName": "DuctFittings",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\DuctFittings.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net48"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net48": {
-            "targetAlias": "net48",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net48": {
-          "targetAlias": "net48",
-          "dependencies": {
-            "CommunityToolkit.Mvvm": {
-              "target": "Package",
-              "version": "[8.*, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[10.0.0-preview.2.25163.2, )"
-            },
-            "Nice3point.Revit.Api.RevitAPI": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            },
-            "Nice3point.Revit.Api.RevitAPIUI": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            },
-            "Nice3point.Revit.Build.Tasks": {
-              "target": "Package",
-              "version": "[2.*, )"
-            },
-            "Nice3point.Revit.Extensions": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            },
-            "Nice3point.Revit.Toolkit": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctInsolation\\DuctInsolation.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctInsolation\\DuctInsolation.csproj",
-        "projectName": "DuctInsolation",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctInsolation\\DuctInsolation.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctInsolation\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net48"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net48": {
-            "targetAlias": "net48",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net48": {
-          "targetAlias": "net48",
-          "dependencies": {
-            "CommunityToolkit.Mvvm": {
-              "target": "Package",
-              "version": "[8.*, )"
-            },
-            "Nice3point.Revit.Api.RevitAPI": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            },
-            "Nice3point.Revit.Api.RevitAPIUI": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            },
-            "Nice3point.Revit.Build.Tasks": {
-              "target": "Package",
-              "version": "[2.*, )"
-            },
-            "Nice3point.Revit.Extensions": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            },
-            "Nice3point.Revit.Toolkit": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Duct\\Duct.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Duct\\Duct.csproj",
-        "projectName": "Duct",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Duct\\Duct.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Duct\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net48"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net48": {
-            "targetAlias": "net48",
-            "projectReferences": {
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
-              },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net48": {
-          "targetAlias": "net48",
-          "dependencies": {
-            "CommunityToolkit.Mvvm": {
-              "target": "Package",
-              "version": "[8.*, )"
-            },
-            "MaterialDesignColors": {
-              "target": "Package",
-              "version": "[5.*, )"
-            },
-            "MaterialDesignThemes": {
-              "target": "Package",
-              "version": "[5.*, )"
-            },
-            "Nice3point.Revit.Api.RevitAPI": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            },
-            "Nice3point.Revit.Api.RevitAPIUI": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            },
-            "Nice3point.Revit.Build.Tasks": {
-              "target": "Package",
-              "version": "[2.*, )"
-            },
-            "Nice3point.Revit.Extensions": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            },
-            "Nice3point.Revit.Toolkit": {
-              "target": "Package",
-              "version": "[2022.*, )"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\External\\wpfui\\src\\Wpf.Ui.Abstractions\\Wpf.Ui.Abstractions.csproj": {
-      "version": "4.0.0-rc.3",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\External\\wpfui\\src\\Wpf.Ui.Abstractions\\Wpf.Ui.Abstractions.csproj",
-        "projectName": "WPF-UI.Abstractions",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\External\\wpfui\\src\\Wpf.Ui.Abstractions\\Wpf.Ui.Abstractions.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\External\\wpfui\\src\\Wpf.Ui.Abstractions\\obj\\",
-        "projectStyle": "PackageReference",
-        "centralPackageVersionsManagementEnabled": true,
-        "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net48"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net48": {
-            "targetAlias": "net48",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "moderate",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net48": {
-          "targetAlias": "net48",
-          "dependencies": {
-            "Microsoft.SourceLink.GitHub": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.0, )",
-              "versionCentrallyManaged": true
-            },
-            "PolySharp": {
-              "include": "Build, Analyzers",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.14.1, )",
-              "versionCentrallyManaged": true
-            },
-            "StyleCop.Analyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.2.0-beta.556, )",
-              "versionCentrallyManaged": true
-            }
-          },
-          "centralPackageVersions": {
-            "CommunityToolkit.Mvvm": "8.2.2",
-            "coverlet.collector": "6.0.0",
-            "Lepo.i18n": "2.0.0",
-            "Lepo.i18n.DependencyInjection": "2.0.0",
-            "Lepo.i18n.Wpf": "2.0.0",
-            "Microsoft.CodeAnalysis.CSharp": "4.10.0",
-            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
-            "Microsoft.Extensions.Hosting": "8.0.0",
-            "Microsoft.NET.Test.Sdk": "17.8.0",
-            "Microsoft.SourceLink.GitHub": "8.0.0",
-            "Microsoft.VisualStudio.CoreUtility": "17.2.3194",
-            "Microsoft.VisualStudio.SDK": "17.10.40171",
-            "Microsoft.VSSDK.BuildTools": "17.11.414",
-            "Microsoft.Web.WebView2": "1.0.2592.51",
-            "Microsoft.Windows.SDK.BuildTools": "10.0.22621.2428",
-            "NativeMethods": "0.0.3",
-            "NSubstitute": "5.1.0",
-            "PolySharp": "1.14.1",
-            "ReflectionEventing": "3.0.1",
-            "ReflectionEventing.DependencyInjection": "3.0.1",
-            "StyleCop.Analyzers": "1.2.0-beta.556",
-            "System.Drawing.Common": "8.0.0",
-            "System.ValueTuple": "4.5.0",
-            "WpfAnalyzers": "4.1.1",
-            "xunit": "2.6.2",
-            "xunit.runner.visualstudio": "2.5.4"
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\External\\wpfui\\src\\Wpf.Ui\\Wpf.Ui.csproj": {
-      "version": "4.0.0-rc.3",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\External\\wpfui\\src\\Wpf.Ui\\Wpf.Ui.csproj",
-        "projectName": "WPF-UI",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\External\\wpfui\\src\\Wpf.Ui\\Wpf.Ui.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\External\\wpfui\\src\\Wpf.Ui\\obj\\",
-        "projectStyle": "PackageReference",
-        "centralPackageVersionsManagementEnabled": true,
-        "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net48"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net48": {
-            "targetAlias": "net48",
-            "projectReferences": {
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\External\\wpfui\\src\\Wpf.Ui.Abstractions\\Wpf.Ui.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\External\\wpfui\\src\\Wpf.Ui.Abstractions\\Wpf.Ui.Abstractions.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "moderate",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net48": {
-          "targetAlias": "net48",
-          "dependencies": {
-            "Microsoft.SourceLink.GitHub": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.0, )",
-              "versionCentrallyManaged": true
-            },
-            "PolySharp": {
-              "include": "Build, Analyzers",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.14.1, )",
-              "versionCentrallyManaged": true
-            },
-            "StyleCop.Analyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.2.0-beta.556, )",
-              "versionCentrallyManaged": true
-            },
-            "WpfAnalyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[4.1.1, )",
-              "versionCentrallyManaged": true
-            }
-          },
-          "centralPackageVersions": {
-            "CommunityToolkit.Mvvm": "8.2.2",
-            "coverlet.collector": "6.0.0",
-            "Lepo.i18n": "2.0.0",
-            "Lepo.i18n.DependencyInjection": "2.0.0",
-            "Lepo.i18n.Wpf": "2.0.0",
-            "Microsoft.CodeAnalysis.CSharp": "4.10.0",
-            "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
-            "Microsoft.Extensions.Hosting": "8.0.0",
-            "Microsoft.NET.Test.Sdk": "17.8.0",
-            "Microsoft.SourceLink.GitHub": "8.0.0",
-            "Microsoft.VisualStudio.CoreUtility": "17.2.3194",
-            "Microsoft.VisualStudio.SDK": "17.10.40171",
-            "Microsoft.VSSDK.BuildTools": "17.11.414",
-            "Microsoft.Web.WebView2": "1.0.2592.51",
-            "Microsoft.Windows.SDK.BuildTools": "10.0.22621.2428",
-            "NativeMethods": "0.0.3",
-            "NSubstitute": "5.1.0",
-            "PolySharp": "1.14.1",
-            "ReflectionEventing": "3.0.1",
-            "ReflectionEventing.DependencyInjection": "3.0.1",
-            "StyleCop.Analyzers": "1.2.0-beta.556",
-            "System.Drawing.Common": "8.0.0",
-            "System.ValueTuple": "4.5.0",
-            "WpfAnalyzers": "4.1.1",
-            "xunit": "2.6.2",
-            "xunit.runner.visualstudio": "2.5.4"
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj",
-        "projectName": "KapibaraCore",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -847,6 +386,415 @@
               "version": "[1.0.3, )",
               "autoReferenced": true
             },
+            "Nice3point.Revit.Api.RevitAPI": {
+              "target": "Package",
+              "version": "[2022.1.21, )"
+            },
+            "Nice3point.Revit.Api.RevitAPIUI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Build.Tasks": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Nice3point.Revit.Extensions": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Toolkit": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFittings\\DuctFittings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFittings\\DuctFittings.csproj",
+        "projectName": "DuctFittings",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFittings\\DuctFittings.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFittings\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.0-preview.2.25163.2, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "Nice3point.Revit.Api.RevitAPI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPIUI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Build.Tasks": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Nice3point.Revit.Extensions": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Toolkit": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "WPF-UI": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctInsolation\\DuctInsolation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctInsolation\\DuctInsolation.csproj",
+        "projectName": "DuctInsolation",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctInsolation\\DuctInsolation.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctInsolation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "Nice3point.Revit.Api.RevitAPI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPIUI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Build.Tasks": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Nice3point.Revit.Extensions": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Toolkit": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Duct\\Duct.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Duct\\Duct.csproj",
+        "projectName": "Duct",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Duct\\Duct.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Duct\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
+              },
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "Nice3point.Revit.Api.RevitAPI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPIUI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Build.Tasks": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "Nice3point.Revit.Extensions": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Toolkit": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Floor\\Floor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Floor\\Floor.csproj",
+        "projectName": "Floor",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Floor\\Floor.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Floor\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.*, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.*, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "Nice3point.Revit.Api.RevitAPI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Api.RevitAPIUI": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Build.Tasks": {
+              "target": "Package",
+              "version": "[3.*, )"
+            },
+            "Nice3point.Revit.Extensions": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "Nice3point.Revit.Toolkit": {
+              "target": "Package",
+              "version": "[2022.*, )"
+            },
+            "WPF-UI": {
+              "target": "Package",
+              "version": "[4.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj",
+        "projectName": "KapibaraCore",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "Microsoft.NETFramework.ReferenceAssemblies.net48": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -878,21 +826,21 @@
               "version": "[2022.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipeInsulation\\PipeInsulation.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\PipeInsulation\\PipeInsulation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipeInsulation\\PipeInsulation.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\PipeInsulation\\PipeInsulation.csproj",
         "projectName": "PipeInsulation",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipeInsulation\\PipeInsulation.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipeInsulation\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\PipeInsulation\\PipeInsulation.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\PipeInsulation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -925,6 +873,12 @@
               "target": "Package",
               "version": "[8.*, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
               "version": "[2022.*, )"
@@ -946,21 +900,21 @@
               "version": "[2022.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\PipesFittings.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\PipesFittings\\PipesFittings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\PipesFittings.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\PipesFittings\\PipesFittings.csproj",
         "projectName": "PipesFittings",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\PipesFittings.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\PipesFittings\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\PipesFittings\\PipesFittings.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\PipesFittings\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -972,14 +926,14 @@
           "net48": {
             "targetAlias": "net48",
             "projectReferences": {
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BimExpertiseCore\\BimExpertiseCore.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\BimExpertiseCore\\BimExpertiseCore.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BimExpertiseCore\\BimExpertiseCore.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BimExpertiseCore\\BimExpertiseCore.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
               }
             }
           }
@@ -1011,6 +965,12 @@
               "target": "Package",
               "version": "[5.*, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
               "version": "[2022.*, )"
@@ -1032,21 +992,21 @@
               "version": "[2022.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\Pipes.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Pipes\\Pipes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\Pipes.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Pipes\\Pipes.csproj",
         "projectName": "Pipes",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\Pipes.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Pipes\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Pipes\\Pipes.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Pipes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -1058,11 +1018,11 @@
           "net48": {
             "targetAlias": "net48",
             "projectReferences": {
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
               }
             }
           }
@@ -1094,6 +1054,12 @@
               "target": "Package",
               "version": "[5.*, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
               "version": "[2022.*, )"
@@ -1115,21 +1081,21 @@
               "version": "[2022.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj",
         "projectName": "SpaceHeater",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\SpaceHeater\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\SpaceHeater\\SpaceHeater.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\SpaceHeater\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -1141,11 +1107,11 @@
           "net48": {
             "targetAlias": "net48",
             "projectReferences": {
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
               }
             }
           }
@@ -1177,6 +1143,12 @@
               "target": "Package",
               "version": "[5.*, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
               "version": "[2022.*, )"
@@ -1198,21 +1170,21 @@
               "version": "[2022.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Valve\\Valve.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Valve\\Valve.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Valve\\Valve.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Valve\\Valve.csproj",
         "projectName": "Valve",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Valve\\Valve.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Valve\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Valve\\Valve.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Valve\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -1224,11 +1196,11 @@
           "net48": {
             "targetAlias": "net48",
             "projectReferences": {
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
               }
             }
           }
@@ -1259,6 +1231,12 @@
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[5.*, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
             },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
@@ -1281,21 +1259,21 @@
               "version": "[2022.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Walls\\Walls.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Walls\\Walls.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Walls\\Walls.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Walls\\Walls.csproj",
         "projectName": "Walls",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Walls\\Walls.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Walls\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Walls\\Walls.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Walls\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -1307,14 +1285,11 @@
           "net48": {
             "targetAlias": "net48",
             "projectReferences": {
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\External\\wpfui\\src\\Wpf.Ui\\Wpf.Ui.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\External\\wpfui\\src\\Wpf.Ui\\Wpf.Ui.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
               },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj"
-              },
-              "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
-                "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
+              "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
+                "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj"
               }
             }
           }
@@ -1345,6 +1320,12 @@
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[5.*, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
             },
             "Microsoft.Web.WebView2": {
               "target": "Package",
@@ -1375,21 +1356,21 @@
               "version": "[4.0.2, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj",
         "projectName": "WpfResourcesBimExpertise",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\WpfResourcesBimExpertise\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\WpfResourcesBimExpertise.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\WpfResourcesBimExpertise\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -1426,6 +1407,12 @@
               "target": "Package",
               "version": "[5.*, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "SharpVectors.Wpf": {
               "target": "Package",
               "version": "[1.*, )"
@@ -1435,7 +1422,7 @@
               "version": "[4.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

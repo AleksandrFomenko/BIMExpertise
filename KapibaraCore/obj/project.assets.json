@@ -1051,7 +1051,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "CommunityToolkit.Mvvm >= 8.*",
+      "CommunityToolkit.Mvvm >= 8.4.0",
       "Microsoft.NETFramework.ReferenceAssemblies >= 1.0.3",
       "Microsoft.NETFramework.ReferenceAssemblies.net48 >= 1.0.3",
       "Newtonsoft.Json >= 13.0.3",
@@ -1063,19 +1063,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FomenkoAA\\.nuget\\packages\\": {}
+    "C:\\Users\\umr22\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj",
+      "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj",
       "projectName": "KapibaraCore",
-      "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj",
-      "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\KapibaraCore\\obj\\",
+      "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\KapibaraCore.csproj",
+      "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\KapibaraCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net48"
@@ -1106,7 +1106,7 @@
         "dependencies": {
           "CommunityToolkit.Mvvm": {
             "target": "Package",
-            "version": "[8.*, )"
+            "version": "[8.4.0, )"
           },
           "Microsoft.NETFramework.ReferenceAssemblies": {
             "suppressParent": "All",
@@ -1145,7 +1145,7 @@
             "version": "[2022.*, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

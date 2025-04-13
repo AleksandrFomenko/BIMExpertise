@@ -1,0 +1,16 @@
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\bin\Debug R22\net48\BIMExpertiseUI.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\bin\Debug R22\net48\BIMExpertiseUI.pdb
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\obj\Debug R22\net48\BIMExpertiseUI.csproj.AssemblyReference.cache
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\obj\Debug R22\net48\Styles\App.Resources.baml
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\obj\Debug R22\net48\BIMExpertiseUI_MarkupCompile.cache
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\obj\Debug R22\net48\BIMExpertiseUI.g.resources
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\obj\Debug R22\net48\BIMExpertiseUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\obj\Debug R22\net48\BIMExpertiseUI.AssemblyInfoInputs.cache
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\obj\Debug R22\net48\BIMExpertiseUI.AssemblyInfo.cs
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\obj\Debug R22\net48\BIMExpertiseUI.csproj.CoreCompileInputs.cache
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\obj\Debug R22\net48\BIMExpertiseUI.sourcelink.json
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\obj\Debug R22\net48\BIMExpertiseUI.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\obj\Debug R22\net48\BIMExpertiseUI.pdb
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\bin\Debug R22\net48\Wpf.Ui.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\bin\Debug R22\net48\Wpf.Ui.Abstractions.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertiseUI\obj\Debug R22\net48\BIMExper.7B726A0C.Up2Date

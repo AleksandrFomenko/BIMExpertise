@@ -7,21 +7,12 @@ namespace Floor.ViewModels;
 
 public sealed partial class FloorViewModel : ObservableObject
 {
-    private Document _doc;
-    private Dispatcher _dispatcher;
     
     [ObservableProperty]
     private ObservableCollection<object> _navigationItems = [];
-
-    //[ObservableProperty] private MainParametersViewModel _mainParametersViewModel;
-   // [ObservableProperty] private AdditionalParametersViewModel _additionalParametersViewModel;
-    internal FloorViewModel(Document doc, Dispatcher dispatcher)
+    
+    internal FloorViewModel()
     {
-        _doc = doc;
-        _dispatcher = dispatcher;
-        //var mainParametersModel = new MainParametersModel(doc);
-        //MainParametersViewModel = new MainParametersViewModel(mainParametersModel, doc, _dispatcher);
-        
         NavigationItems = new ObservableCollection<object>()
         {
             new NavigationViewItem()

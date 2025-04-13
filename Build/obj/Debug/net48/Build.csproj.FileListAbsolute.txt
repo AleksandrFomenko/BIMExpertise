@@ -15,3 +15,20 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.source
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.csproj.Up2Date
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.exe
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Build\obj\Debug\net48\Build.pdb
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\bin\Debug\net48\Build.exe.config
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\bin\Debug\net48\Build.exe
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\bin\Debug\net48\Build.pdb
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\bin\Debug\net48\BootstrapperCore.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\bin\Debug\net48\Microsoft.Deployment.WindowsInstaller.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\bin\Debug\net48\WixSharp.Msi.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\bin\Debug\net48\WixSharp.UI.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\bin\Debug\net48\WixSharp.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\obj\Debug\net48\Build.csproj.AssemblyReference.cache
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\obj\Debug\net48\Build.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\obj\Debug\net48\Build.AssemblyInfoInputs.cache
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\obj\Debug\net48\Build.AssemblyInfo.cs
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\obj\Debug\net48\Build.csproj.CoreCompileInputs.cache
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\obj\Debug\net48\Build.sourcelink.json
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\obj\Debug\net48\Build.csproj.Up2Date
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\obj\Debug\net48\Build.exe
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Build\obj\Debug\net48\Build.pdb

@@ -10,11 +10,6 @@ namespace WpfResourcesBimExpertise.Services.Appearance;
     {
         private static readonly List<FrameworkElement> _observedElements = new List<FrameworkElement>();
         
-        static ThemeWatcherService()
-        {
-            TryOverridePageMetadata();
-        }
-
         public static void Initialize()
         {
             UiApplication.Current.Resources = new ResourceDictionary
@@ -82,6 +77,7 @@ namespace WpfResourcesBimExpertise.Services.Appearance;
             var element = (FrameworkElement)sender;
             _observedElements.Remove(element);
         }
+        
 
         private static void UpdateBackground(ApplicationTheme theme)
         {
@@ -89,24 +85,5 @@ namespace WpfResourcesBimExpertise.Services.Appearance;
             {
                 WindowBackgroundManager.UpdateBackground(window, theme, WindowBackdropType.Mica);
             }
-        }
-        
-        private static void TryOverridePageMetadata()
-        {
-            var dp = FrameworkElement.OverridesDefaultStyleProperty;
-            var metadata = dp.GetMetadata(typeof(Page)) as FrameworkPropertyMetadata;
-            
-            if (metadata != null && metadata.DefaultValue is Type currentDefault && currentDefault == typeof(Page))
-            {
-                try
-                {
-                    dp.OverrideMetadata(typeof(Page), new FrameworkPropertyMetadata(typeof(NavigationViewContentPresenter)));
-                }
-                catch (Exception ex)
-                {
-                    //Ignored
-                }
-            }
-
         }
     }

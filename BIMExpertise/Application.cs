@@ -56,9 +56,9 @@ public class Application : ExternalApplication
         panelVentilation.AddPushButton<DuctInsolation.Command.StartupCommand>("Duct\ninsulation")
             .SetImage("/BIMExpertise;component/Resources/Icons/DuctIsolation32.png")
             .SetLargeImage("/BIMExpertise;component/Resources/Icons/DuctIsolation32.png");
-        panelVentilation.AddPushButton<DuctFittings.Commands.StartupCommand>("Duct\nfittings")
-            .SetImage("/BIMExpertise;component/Resources/Icons/DuctFittings32.png")
-            .SetLargeImage("/BIMExpertise;component/Resources/Icons/DuctFittings32.png");
+        //panelVentilation.AddPushButton<DuctFittings.Commands.StartupCommand>("Duct\nfittings")
+          //  .SetImage("/BIMExpertise;component/Resources/Icons/DuctFittings32.png")
+          //  .SetLargeImage("/BIMExpertise;component/Resources/Icons/DuctFittings32.png");
         panelVentilation.AddPushButton<AirTerminal.Commands.StartupCommand>("Air\nterminal")
             .SetImage("/BIMExpertise;component/Resources/Icons/AirTerminal32.png")
             .SetLargeImage("/BIMExpertise;component/Resources/Icons/AirTerminal32.png");
@@ -72,6 +72,9 @@ public class Application : ExternalApplication
             new SolidColorBrush(Color.FromRgb(204, 204, 255));
         panelAr.SetTitleBarBackground(panelBackgroundBrushPurple);
         panelAr.AddPushButton<Walls.Commands.StartupCommand>("Walls")
+            .SetImage("/BIMExpertise;component/Resources/Icons/Wall32.png")
+            .SetLargeImage("/BIMExpertise;component/Resources/Icons/Wall32.png");
+        panelAr.AddPushButton<Floor.Commands.StartupCommand>("Floor")
             .SetImage("/BIMExpertise;component/Resources/Icons/Wall32.png")
             .SetLargeImage("/BIMExpertise;component/Resources/Icons/Wall32.png");
     }

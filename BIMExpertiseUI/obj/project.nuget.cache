@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "4QrS1lhoPuU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\BIMExpertiseUI\\BIMExpertiseUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\umr22\\.nuget\\packages\\ilrepack\\2.0.41\\ilrepack.2.0.41.nupkg.sha512",
+    "C:\\Users\\umr22\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\umr22\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.3\\microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
+    "C:\\Users\\umr22\\.nuget\\packages\\wpf-ui\\4.0.2\\wpf-ui.4.0.2.nupkg.sha512",
+    "C:\\Users\\umr22\\.nuget\\packages\\wpf-ui.abstractions\\4.0.2\\wpf-ui.abstractions.4.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

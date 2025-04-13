@@ -37,11 +37,11 @@
     <PropertyGroup Condition="$(Configuration.Contains('Release'))">
         <IsRepackable>true</IsRepackable>
     </PropertyGroup>
-
-    <PropertyGroup Condition="$(Configuration.Contains('Release'))">
-        <IsRepackable>true</IsRepackable>
+    
+    <PropertyGroup>
+        <PublishAddinFiles>true</PublishAddinFiles>
     </PropertyGroup>
-
+    
     <PropertyGroup>
         <StartAction>Program</StartAction>
         <StartProgram>C:\Program Files\Autodesk\Revit $(RevitVersion)\Revit.exe</StartProgram>
@@ -51,7 +51,7 @@
     <ItemGroup>
         <PackageReference Include="MaterialDesignColors" Version="5.*" />
         <PackageReference Include="MaterialDesignThemes" Version="5.*" />
-        <PackageReference Include="Nice3point.Revit.Build.Tasks" Version="2.*" />
+        <PackageReference Include="Nice3point.Revit.Build.Tasks" Version="3.*" />
         <PackageReference Include="Nice3point.Revit.Toolkit" Version="$(RevitVersion).*-*" />
         <PackageReference Include="Nice3point.Revit.Extensions" Version="$(RevitVersion).*-*" />
         <PackageReference Include="Nice3point.Revit.Api.RevitAPI" Version="$(RevitVersion).*-*" />
@@ -82,6 +82,7 @@
         <ProjectReference Include="..\DuctFittings\DuctFittings.csproj" />
         <ProjectReference Include="..\DuctInsolation\DuctInsolation.csproj" />
         <ProjectReference Include="..\Duct\Duct.csproj" />
+        <ProjectReference Include="..\Floor\Floor.csproj" />
         <ProjectReference Include="..\PipeInsulation\PipeInsulation.csproj" />
         <ProjectReference Include="..\PipesFittings\PipesFittings.csproj" />
         <ProjectReference Include="..\Pipes\Pipes.csproj" />

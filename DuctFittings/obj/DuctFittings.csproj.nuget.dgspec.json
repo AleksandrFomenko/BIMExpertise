@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\DuctFittings.csproj": {}
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFittings\\DuctFittings.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\DuctFittings.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFittings\\DuctFittings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\DuctFittings.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFittings\\DuctFittings.csproj",
         "projectName": "DuctFittings",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\DuctFittings.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFittings\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFittings\\DuctFittings.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFittings\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -51,6 +51,12 @@
               "target": "Package",
               "version": "[10.0.0-preview.2.25163.2, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
               "version": "[2022.*, )"
@@ -70,9 +76,13 @@
             "Nice3point.Revit.Toolkit": {
               "target": "Package",
               "version": "[2022.*, )"
+            },
+            "WPF-UI": {
+              "target": "Package",
+              "version": "[4.0.2, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

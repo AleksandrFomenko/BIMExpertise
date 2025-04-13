@@ -31,3 +31,36 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\DuctFit
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\obj\Debug R22\Views\MainParameters.baml
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Debug R22\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\DuctFittings\bin\Debug R22\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.csproj.AssemblyReference.cache
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\Views\MainParameters.g.cs
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings_MarkupCompile.cache
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings_MarkupCompile.lref
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.pdb
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\DuctFittings.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\DuctFittings.pdb
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\CommunityToolkit.Mvvm.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\JetBrains.Annotations.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\Nice3point.Revit.Extensions.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\Nice3point.Revit.Toolkit.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\System.Buffers.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\System.ComponentModel.Annotations.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\System.Memory.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\System.Numerics.Vectors.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\System.Threading.Tasks.Extensions.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\Wpf.Ui.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\bin\Debug R22\Wpf.Ui.Abstractions.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\Views\DuctFittingsView.g.cs
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\Views\DuctFittingsView.baml
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\Views\MainParameters.baml
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.g.resources
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.AssemblyInfoInputs.cache
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.AssemblyInfo.cs
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.csproj.CoreCompileInputs.cache
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\DuctFittings.sourcelink.json
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\DuctFittings\obj\Debug R22\DuctFitt.F8EDC7DE.Up2Date

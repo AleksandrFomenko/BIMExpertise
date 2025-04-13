@@ -1,0 +1,56 @@
+﻿<ui:FluentWindow
+     x:Class="RevitAddIn1.Views.RevitAddIn1View"
+     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+     xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+     xmlns:views="clr-namespace:RevitAddIn1.Views"
+     xmlns:customControls="clr-namespace:RevitAddIn1.CustomControls"
+     mc:Ignorable="d"
+     WindowStartupLocation="CenterScreen"
+     Height="700"
+     Width="1200">
+    
+    
+    
+   
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition  />
+        </Grid.RowDefinitions>
+        <ui:TitleBar Grid.Row="0" Title="Sorting"/>
+
+        <customControls:MyNavigationView Grid.Row="1" 
+                                IsBackButtonVisible="Collapsed"
+                                PaneDisplayMode="Left"
+                                OpenPaneLength="160"
+                                IsPaneOpen="False"
+                                BreadcrumbBar="{Binding ElementName=BreadcrumbBar}"
+                                TitleBar="{Binding ElementName=TitleBar, Mode=OneWay}">
+            <customControls:MyNavigationView.MenuItems>
+                <ui:NavigationViewItem Content="Home" 
+                                       Icon="{ui:SymbolIcon Home24}" 
+                                       Tag="{x:Type views:Page1}" />
+                <ui:NavigationViewItem Content="Page2"
+                                       Icon="{ui:SymbolIcon Home24}"
+                                       Tag="{x:Type views:Page2}" />
+            </customControls:MyNavigationView.MenuItems>
+            <ui:NavigationView.Header>
+                <ui:BreadcrumbBar
+                    x:Name="BreadcrumbBar"
+                    Margin="12 10 0 0">
+                    <ui:BreadcrumbBar.ItemTemplate>
+                        <DataTemplate>
+                            <ui:TextBlock
+                                FontTypography="Subtitle"
+                                Text="{Binding Content}" />
+                        </DataTemplate>
+                    </ui:BreadcrumbBar.ItemTemplate>
+                </ui:BreadcrumbBar>
+            </ui:NavigationView.Header>
+        </customControls:MyNavigationView>
+        
+    </Grid>
+</ui:FluentWindow>

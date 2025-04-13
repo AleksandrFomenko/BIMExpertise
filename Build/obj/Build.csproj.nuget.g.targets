@@ -3,5 +3,6 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)wixsharp.bin\1.26.0\build\WixSharp.bin.targets" Condition="Exists('$(NuGetPackageRoot)wixsharp.bin\1.26.0\build\WixSharp.bin.targets')" />
     <Import Project="$(NuGetPackageRoot)wixsharp\1.26.0\build\WixSharp.targets" Condition="Exists('$(NuGetPackageRoot)wixsharp\1.26.0\build\WixSharp.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net48\1.0.3\build\Microsoft.NETFramework.ReferenceAssemblies.net48.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.netframework.referenceassemblies.net48\1.0.3\build\Microsoft.NETFramework.ReferenceAssemblies.net48.targets')" />
   </ImportGroup>
 </Project>

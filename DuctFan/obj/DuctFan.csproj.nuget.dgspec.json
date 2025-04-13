@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\DuctFan.csproj": {}
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFan\\DuctFan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\DuctFan.csproj": {
+    "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFan\\DuctFan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\DuctFan.csproj",
+        "projectUniqueName": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFan\\DuctFan.csproj",
         "projectName": "DuctFan",
-        "projectPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\DuctFan.csproj",
-        "packagesPath": "C:\\Users\\FomenkoAA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\DuctFan\\obj\\",
+        "projectPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFan\\DuctFan.csproj",
+        "packagesPath": "C:\\Users\\umr22\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\DuctFan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\FomenkoAA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\umr22\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net48"
@@ -47,6 +47,12 @@
               "target": "Package",
               "version": "[8.*, )"
             },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
             "Nice3point.Revit.Api.RevitAPI": {
               "target": "Package",
               "version": "[2022.1.21, )"
@@ -68,7 +74,7 @@
               "version": "[2022.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,20 +5,21 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\FomenkoAA\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\umr22\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.12.2</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\FomenkoAA\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\umr22\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)nice3point.revit.build.tasks\2.0.2\build\Nice3point.Revit.Build.Tasks.props" Condition="Exists('$(NuGetPackageRoot)nice3point.revit.build.tasks\2.0.2\build\Nice3point.Revit.Build.Tasks.props')" />
+    <Import Project="$(NuGetPackageRoot)nice3point.revit.build.tasks\3.0.1\build\Nice3point.Revit.Build.Tasks.props" Condition="Exists('$(NuGetPackageRoot)nice3point.revit.build.tasks\3.0.1\build\Nice3point.Revit.Build.Tasks.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\9.0.4\buildTransitive\net462\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\9.0.4\buildTransitive\net462\Microsoft.Extensions.Configuration.UserSecrets.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgWPF-UI Condition=" '$(PkgWPF-UI)' == '' ">C:\Users\FomenkoAA\.nuget\packages\wpf-ui\4.0.2</PkgWPF-UI>
-    <PkgMicrosoft_Xaml_Behaviors_Wpf Condition=" '$(PkgMicrosoft_Xaml_Behaviors_Wpf)' == '' ">C:\Users\FomenkoAA\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.39</PkgMicrosoft_Xaml_Behaviors_Wpf>
-    <PkgMaterialDesignThemes Condition=" '$(PkgMaterialDesignThemes)' == '' ">C:\Users\FomenkoAA\.nuget\packages\materialdesignthemes\5.2.1</PkgMaterialDesignThemes>
-    <PkgMicrosoft_Web_WebView2 Condition=" '$(PkgMicrosoft_Web_WebView2)' == '' ">C:\Users\FomenkoAA\.nuget\packages\microsoft.web.webview2\1.0.3230-prerelease</PkgMicrosoft_Web_WebView2>
+    <PkgWPF-UI Condition=" '$(PkgWPF-UI)' == '' ">C:\Users\umr22\.nuget\packages\wpf-ui\4.0.2</PkgWPF-UI>
+    <PkgMicrosoft_Xaml_Behaviors_Wpf Condition=" '$(PkgMicrosoft_Xaml_Behaviors_Wpf)' == '' ">C:\Users\umr22\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.39</PkgMicrosoft_Xaml_Behaviors_Wpf>
+    <PkgMaterialDesignThemes Condition=" '$(PkgMaterialDesignThemes)' == '' ">C:\Users\umr22\.nuget\packages\materialdesignthemes\5.2.1</PkgMaterialDesignThemes>
+    <PkgMicrosoft_Web_WebView2 Condition=" '$(PkgMicrosoft_Web_WebView2)' == '' ">C:\Users\umr22\.nuget\packages\microsoft.web.webview2\1.0.3230-prerelease</PkgMicrosoft_Web_WebView2>
   </PropertyGroup>
 </Project>

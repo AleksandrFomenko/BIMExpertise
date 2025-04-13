@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using Microsoft.Extensions.DependencyInjection;
 using Wpf.Ui.Abstractions;
 
 namespace Floor;
@@ -19,7 +20,7 @@ public class PageService : INavigationViewPageProvider
             throw new InvalidOperationException("The page should be a WPF control.");
         }
 
-        return _serviceProvider.GetService(pageType) as FrameworkElement;
+        return _serviceProvider.GetRequiredService(pageType) as FrameworkElement;
     }
 }
 
