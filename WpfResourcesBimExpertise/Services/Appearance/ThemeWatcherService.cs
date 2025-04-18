@@ -1,14 +1,13 @@
 ﻿using System.Windows;
-using System.Windows.Controls;
 using Wpf.Ui;
 using Wpf.Ui.Appearance;
 using Wpf.Ui.Controls;
 
 namespace WpfResourcesBimExpertise.Services.Appearance;
 
-    public static class ThemeWatcherService
+    public sealed class ThemeWatcherService : IThemeWatcherService
     {
-        private static readonly List<FrameworkElement> _observedElements = new List<FrameworkElement>();
+        private static readonly List<FrameworkElement> ObservedElements = [];
         
         public static void Initialize()
         {
@@ -19,15 +18,16 @@ namespace WpfResourcesBimExpertise.Services.Appearance;
             ApplicationThemeManager.Changed += OnApplicationThemeManagerChanged;
         }
 
+        
         public static void ApplyTheme(ApplicationTheme theme)
         {
-            ApplicationThemeManager.Apply(theme);
+            ApplicationThemeManager.Apply(theme, WindowBackdropType.Auto);
             UpdateBackground(theme);
         }
 
         private static void OnApplicationThemeManagerChanged(ApplicationTheme currentApplicationTheme, System.Windows.Media.Color systemAccent)
         {
-            foreach (var frameworkElement in _observedElements)
+            foreach (var frameworkElement in ObservedElements)
             {
                 ApplicationThemeManager.Apply(frameworkElement);
                 UpdateDictionary(frameworkElement);
@@ -36,8 +36,9 @@ namespace WpfResourcesBimExpertise.Services.Appearance;
 
         private static void UpdateDictionary(FrameworkElement frameworkElement)
         {
+            
             var themedResources = frameworkElement.Resources.MergedDictionaries
-                .Where(dictionary => dictionary.Source?.OriginalString.Contains("WpfResourcesBimExpertise;", StringComparison.OrdinalIgnoreCase) == true)
+                .Where(dictionary => dictionary.Source.OriginalString.Contains("WpfResourcesBimExpertise;", StringComparison.OrdinalIgnoreCase))
                 .ToArray();
 
             if (UiApplication.Current.Resources.MergedDictionaries.Count >= 2)
@@ -52,38 +53,42 @@ namespace WpfResourcesBimExpertise.Services.Appearance;
             }
         }
 
-        public static void Watch(FrameworkElement frameworkElement)
+        public void Watch(FrameworkElement frameworkElement)
         {
             ApplicationThemeManager.Apply(frameworkElement);
             frameworkElement.Loaded += OnWatchedElementLoaded;
             frameworkElement.Unloaded += OnWatchedElementUnloaded;
         }
 
-        private static void OnWatchedElementLoaded(object sender, RoutedEventArgs e)
+        private void OnWatchedElementLoaded(object sender, RoutedEventArgs e)
         {
             var element = (FrameworkElement)sender;
-            _observedElements.Add(element);
+            ObservedElements.Add(element);
 
-            if (element.Resources.MergedDictionaries.Count > 0 && 
-                element.Resources.MergedDictionaries[0].Source?.OriginalString != UiApplication.Current.Resources.MergedDictionaries[0].Source.OriginalString)
+            if (element.Resources.MergedDictionaries[0].Source.OriginalString != UiApplication.Current.Resources.MergedDictionaries[0].Source.OriginalString)
             {
                 ApplicationThemeManager.Apply(element);
                 UpdateDictionary(element);
             }
         }
 
-        private static void OnWatchedElementUnloaded(object sender, RoutedEventArgs e)
+        private void OnWatchedElementUnloaded(object sender, RoutedEventArgs e)
         {
             var element = (FrameworkElement)sender;
-            _observedElements.Remove(element);
+            ObservedElements.Remove(element);
         }
         
 
         private static void UpdateBackground(ApplicationTheme theme)
         {
-            foreach (var window in _observedElements.Select(Window.GetWindow).Distinct())
+            foreach (var window in ObservedElements.Select(Window.GetWindow).Distinct())
             {
                 WindowBackgroundManager.UpdateBackground(window, theme, WindowBackdropType.Mica);
             }
         }
+    }
+
+    public interface IThemeWatcherService
+    {
+        void Watch(FrameworkElement frameworkElement);
     }

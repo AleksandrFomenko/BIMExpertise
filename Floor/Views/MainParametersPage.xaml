@@ -1,10 +1,9 @@
-﻿<global:WpfUIPlatformPage x:Class="Floor.Views.MainParametersPage"
+﻿<Page x:Class="Floor.Views.MainParametersPage"
                    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                   xmlns:global="clr-namespace:"
                    ScrollViewer.CanContentScroll="False"
                    x:ClassModifier="internal">
     <Grid>
-        
+        <TextBlock> sdfsdfdf</TextBlock>
     </Grid>
-</global:WpfUIPlatformPage>
+</Page>

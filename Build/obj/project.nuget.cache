@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "iNRViXLLcfc=",
+  "dgSpecHash": "qMCMkMVVLQM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\umr22\\OneDrive\\Рабочий стол\\dev\\BIMExpertise\\Build\\Build.csproj",
+  "projectFilePath": "C:\\Users\\FomenkoAA\\RiderProjects\\BIMExpertise\\Build\\Build.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\umr22\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-    "C:\\Users\\umr22\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.3\\microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
-    "C:\\Users\\umr22\\.nuget\\packages\\wixsharp\\1.26.0\\wixsharp.1.26.0.nupkg.sha512",
-    "C:\\Users\\umr22\\.nuget\\packages\\wixsharp.bin\\1.26.0\\wixsharp.bin.1.26.0.nupkg.sha512"
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.3\\microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\wixsharp\\1.26.0\\wixsharp.1.26.0.nupkg.sha512",
+    "C:\\Users\\FomenkoAA\\.nuget\\packages\\wixsharp.bin\\1.26.0\\wixsharp.bin.1.26.0.nupkg.sha512"
   ],
   "logs": []
 }

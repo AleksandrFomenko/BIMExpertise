@@ -1,0 +1,20 @@
+﻿WpfResourcesBimExpertise
+2.0.0
+
+library
+C#
+.cs
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\WpfResourcesBimExpertise\obj\Debug R25\net8.0-windows\
+WpfResourcesBimExpertise
+none
+false
+TRACE;DEBUG_R25;NET;NET8_0;NETCOREAPP
+
+8402302503
+
+7-2029623563
+210-969388408
+Images\Icons.xaml;Styles\App.Resources.xaml;Styles\Border.xaml;Styles\TextBox.xaml;Themes\DarkTheme.xaml;Themes\LightTheme.xaml;Themes\MainTheme.xaml;TopPanel.xaml;
+
+False
+

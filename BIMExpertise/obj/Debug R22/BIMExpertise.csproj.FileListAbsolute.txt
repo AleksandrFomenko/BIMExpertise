@@ -36,10 +36,7 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\BimExpe
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Build.exe
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Duct.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\DuctFan.dll
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\DuctFittings.dll
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\DuctInsolation.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\KapibaraCore.dll
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\PipeInsulation.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Pipes.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\PipesFittings.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\SpaceHeater.dll
@@ -48,10 +45,7 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Walls.d
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\WpfResourcesBimExpertise.dll
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\AirTerminal.pdb
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\DuctFan.pdb
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\DuctFittings.pdb
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\DuctInsolation.pdb
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Duct.pdb
-C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\PipeInsulation.pdb
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\PipesFittings.pdb
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Pipes.pdb
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\SpaceHeater.pdb
@@ -186,3 +180,39 @@ C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertise\ob
 C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertise\obj\Debug R22\BIMExpertise.csproj.CoreCompileInputs.cache
 C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertise\obj\Debug R22\BIMExpertise.sourcelink.json
 C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\BIMExpertise\obj\Debug R22\BIMExper.1838B3C3.Up2Date
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Configuration.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Diagnostics.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Hosting.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Logging.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Logging.Console.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Options.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Microsoft.Extensions.Primitives.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\System.Diagnostics.DiagnosticSource.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\System.IO.Pipelines.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\System.Text.Encodings.Web.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\System.Text.Json.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\System.ValueTuple.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Floor.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Floor.pdb
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Insulation.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\Insulation.pdb
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\WPF.UI.pdb
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\BIMExpertise\bin\Debug R22\WPF.UI.Abstractions.pdb

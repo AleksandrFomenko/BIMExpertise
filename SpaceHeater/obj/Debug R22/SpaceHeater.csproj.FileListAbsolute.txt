@@ -96,3 +96,6 @@ C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\SpaceHeater\obj
 C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\SpaceHeater\obj\Debug R22\SpaceHea.EE25D6F3.Up2Date
 C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\SpaceHeater\obj\Debug R22\SpaceHeater.dll
 C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\SpaceHeater\obj\Debug R22\SpaceHeater.pdb
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\SpaceHeater\bin\Debug R22\WPF.UI.pdb
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\SpaceHeater\bin\Debug R22\WPF.UI.Abstractions.pdb
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\SpaceHeater\bin\Debug R22\Microsoft.Extensions.DependencyInjection.Abstractions.dll

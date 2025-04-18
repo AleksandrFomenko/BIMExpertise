@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpaceHeater")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug R22")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29ab32429b01951d4a944b8eefab62f6f9be53ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2da83550458401f5632b1d507728db125e29127")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpaceHeater")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpaceHeater")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

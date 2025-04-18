@@ -103,3 +103,7 @@ C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Walls\obj\Debug
 C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Walls\obj\Debug R22\Walls.csproj.Up2Date
 C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Walls\obj\Debug R22\Walls.dll
 C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Walls\obj\Debug R22\Walls.pdb
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\bin\Debug R22\Wpf.Ui.Abstractions.dll
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\bin\Debug R22\WPF.UI.pdb
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\bin\Debug R22\WPF.UI.Abstractions.pdb
+C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\bin\Debug R22\Microsoft.Extensions.DependencyInjection.Abstractions.dll

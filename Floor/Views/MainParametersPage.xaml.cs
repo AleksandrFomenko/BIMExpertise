@@ -1,20 +1,17 @@
-﻿using System.Windows.Controls;
-using Floor.ViewModels;
-using Wpf.Ui.Abstractions;
+﻿using Floor.ViewModels;
 using Wpf.Ui.Abstractions.Controls;
 using WpfResourcesBimExpertise.Services.Appearance;
 
 namespace Floor.Views;
 
-internal partial class MainParametersPage : WpfUIPlatformPage, INavigableView<MainParametersViewModel>
+internal partial class MainParametersPage : INavigableView<MainParametersViewModel>
 {
-    public MainParametersPage(MainParametersViewModel viewModel)
+    public MainParametersPage(MainParametersViewModel viewModel, IThemeWatcherService themeWatcherService)
     {
-        ViewModel = viewModel;
-        ThemeWatcherService.Watch(this);
-        InitializeComponent();
-        
+        themeWatcherService.Watch(this);
+        ViewModel = viewModel; 
+        DataContext = this;
+        InitializeComponent(); 
     }
-
     public MainParametersViewModel ViewModel { get; }
 }

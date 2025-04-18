@@ -43,10 +43,11 @@
         <PackageReference Include="Nice3point.Revit.Api.RevitAPI" Version="$(RevitVersion).*"/>
         <PackageReference Include="Nice3point.Revit.Api.RevitAPIUI" Version="$(RevitVersion).*"/>
         <PackageReference Include="CommunityToolkit.Mvvm" Version="8.*"/>
-        <PackageReference Include="WPF-UI" Version="4.*" />
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\WPF.UI\source\WPF.UI.Abstractions\WPF.UI.Abstractions.csproj" />
+      <ProjectReference Include="..\WPF.UI\source\WPF.UI\WPF.UI.csproj" />
       <ProjectReference Include="..\WpfResourcesBimExpertise\WpfResourcesBimExpertise.csproj" />
     </ItemGroup>
 

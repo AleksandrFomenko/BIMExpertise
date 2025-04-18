@@ -1,0 +1,12 @@
+﻿<RevitAddIns>
+    <AddIn Type="Command">
+        <Name>Insulation</Name>
+        <Assembly>Insulation/Insulation.dll</Assembly>
+        <AddInId>2CE9DEC8-769E-45BE-88F2-A0BE7543285E</AddInId>
+        <FullClassName>Insulation.Commands.StartupCommand</FullClassName>
+        <Text>Insulation</Text>
+        <VendorId>Development</VendorId>
+        <VendorDescription></VendorDescription>
+        <VendorEmail></VendorEmail>
+    </AddIn>
+</RevitAddIns>
