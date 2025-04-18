@@ -152,3 +152,5 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Floor\obj\Debug R22\Views\MainPara
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Floor\bin\Debug R22\WPF.UI.Abstractions.pdb
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Floor\bin\Debug R22\WPF.UI.pdb
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Floor\obj\Debug R22\GeneratedInternalTypeHelper.g.cs
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Floor\bin\Debug R22\WPF.UI.Abstractions.pdb
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Floor\bin\Debug R22\WPF.UI.pdb

@@ -69,3 +69,9 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\WpfResourcesBimExpertise\obj\Debug
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\WpfResourcesBimExpertise\bin\Debug R22\net48\WPF.UI.pdb
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\WpfResourcesBimExpertise\bin\Debug R22\net48\WPF.UI.Abstractions.pdb
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\WpfResourcesBimExpertise\bin\Debug R22\net48\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\WpfResourcesBimExpertise\bin\Debug R22\net48\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\WpfResourcesBimExpertise\bin\Debug R22\net48\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\WpfResourcesBimExpertise\bin\Debug R22\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\WpfResourcesBimExpertise\bin\Debug R22\net48\System.Threading.Tasks.Extensions.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\WpfResourcesBimExpertise\bin\Debug R22\net48\WPF.UI.pdb
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\WpfResourcesBimExpertise\bin\Debug R22\net48\WPF.UI.Abstractions.pdb

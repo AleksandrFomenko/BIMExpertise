@@ -37,14 +37,11 @@
     <ItemGroup>
         <PackageReference Include="MaterialDesignColors" Version="5.*" />
         <PackageReference Include="MaterialDesignThemes" Version="5.*" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="*" />
         <PackageReference Include="SharpVectors.Wpf" Version="1.*" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\WPF.UI\source\WPF.UI\WPF.UI.csproj" />
     </ItemGroup>
-    <ItemGroup>
-      <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
-        <HintPath>..\..\..\..\..\Program Files\Autodesk\Revit 2022\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
-      </Reference>
-    </ItemGroup>
+
 </Project>

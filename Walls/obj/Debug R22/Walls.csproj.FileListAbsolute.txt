@@ -107,3 +107,6 @@ C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\bin\Debug R22\Wpf.Ui.Abstrac
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\bin\Debug R22\WPF.UI.pdb
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\bin\Debug R22\WPF.UI.Abstractions.pdb
 C:\Users\FomenkoAA\RiderProjects\BIMExpertise\Walls\bin\Debug R22\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Walls\bin\Debug R22\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Walls\bin\Debug R22\WPF.UI.pdb
+C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\Walls\bin\Debug R22\WPF.UI.Abstractions.pdb

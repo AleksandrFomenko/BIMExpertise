@@ -1,8 +1,5 @@
 is_global = true
 build_property.RootNamespace = WpfResourcesBimExpertise
-build_property.ProjectDir = C:\Users\FomenkoAA\RiderProjects\BIMExpertise\WpfResourcesBimExpertise\
+build_property.ProjectDir = C:\Users\umr22\OneDrive\Рабочий стол\dev\BIMExpertise\WpfResourcesBimExpertise\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 

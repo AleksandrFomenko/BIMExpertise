@@ -12,15 +12,7 @@
     Height="600"
     Width="900"
     ExtendsContentIntoTitleBar="True">
-
-    <ui:FluentWindow.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/Wpf.Ui;component/Resources/Theme/Dark.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Wpf.Ui;component/Resources/Wpf.Ui.xaml" />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </ui:FluentWindow.Resources>
+    
 
     <Grid>
         <ui:TitleBar Title="Insulation" Margin="40,0,0,0" />

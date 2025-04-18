@@ -7,7 +7,8 @@ namespace WpfResourcesBimExpertise.Services.Appearance;
 
     public sealed class ThemeWatcherService : IThemeWatcherService
     {
-        private static readonly List<FrameworkElement> ObservedElements = [];
+        private static readonly List<FrameworkElement> ObservedElements = new List<FrameworkElement>();
+
         
         public static void Initialize()
         {
